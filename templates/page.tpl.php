@@ -120,6 +120,14 @@
 </head>
 <body class="<?php print $classes; ?>">
 
+	<div id="splash">
+	
+	
+	
+	
+	</div>  <!-- #splash -->
+	
+	
   <?php if ($primary_links): ?>
     <div id="skip-link"><a href="#main-menu"><?php print t('Jump to Navigation'); ?></a></div>
   <?php endif; ?>
