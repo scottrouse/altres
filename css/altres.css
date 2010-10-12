@@ -5,6 +5,26 @@
  * Custom styles for the ALTRES website.
  */
 
+/* --------------------------------  */
+/*
+ * TEMP Styles - DELETE when dev is complete
+ *
+ */
+ /* --------------------------------  */
+ 
+body {
+	background-color: aqua;
+}
+
+/* --------------------------------  */
+/* End DELETE */
+/* --------------------------------  */
+
+
+
+
+
+
 /*
  * Overall Styles:
  *
@@ -23,6 +43,7 @@
 	height: 578px;
 	position: relative;
 	z-index: 0;
+	background-color: #002B5C;
 }
 
 /*
@@ -72,7 +93,7 @@
 	text-indent: -9999px;
 }
 
-.nav a, .nav a:link, .nav a:visited, #quick-contact a, #quick-contact a:link, #quick-contact a:visited {
+.nav a, .nav a:link, .nav a:visited, #quick-contact a, #quick-contact a:link, #quick-contact a:visited, .menu a, .menu a:link, .menu a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -113,6 +134,21 @@
 
 
 /*
+ * Feature Area
+ *
+ */
+
+#feature {
+	background-color: fuchsia; /* DELETE -------------------- */
+	width: 980px;
+	height: 385px;
+	position: relative;
+	z-index: 2;
+	top: 90px;
+}
+
+
+/*
  * Main Staffing Links
  *
  */
@@ -123,7 +159,7 @@
 	background-image: url(../images/staffing/staffing-bg.png);
 	background-repeat: repeat-x;
 	z-index: 3;
-	top: 436px;
+	top: 72px;
 	padding-top: 18px;
 }
 
@@ -154,7 +190,6 @@
 #primary-links ul.links {
 	margin: 0;
 	position: relative;
-	top: -50px;
 }
 
 #primary-links ul.links li {
@@ -166,13 +201,56 @@
 
 
 /*
+ * Footer Area
+ *
+ */
+
+#footer {
+	font-size: 10px;
+	line-height: 17px;
+}
+
+#block-block-1 {
+	float: right;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+#block-menu-menu-quaternary-links {
+	float: left;
+	margin-bottom: 0;
+}
+
+#block-menu-menu-quaternary-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#block-menu-menu-quaternary-links ul li {
+	display: inline;
+}
+
+#block-menu-menu-quaternary-links ul li a, #block-menu-menu-quaternary-links ul li a:link, #block-menu-menu-quaternary-links ul li a:visited {
+	border-right: 1px solid #FFFFFF;
+	padding-right: 0.3em;
+}
+
+#block-menu-menu-quaternary-links ul li.last a, #block-menu-menu-quaternary-links ul li.last a:link, #block-menu-menu-quaternary-links ul li.last a:visited {
+	border: none;
+}
+
+#block-block-4 {
+	clear: left;
+}
+
+/*
  * Front Page
  *
  */
 
 body.front #splash {
-	background-image: url(../images/splash/splash-homepage.jpg);
-	background-color: #002B5C;
+	background-image: url(../images/splash/background/splash-homepage.jpg);
 }
 
 
@@ -185,11 +263,29 @@ body.front #splash {
 
 /* INDUSTRIAL */
 
+body.page-industrial #splash {
+	background-image: url(../images/splash/background/splash-industrial.jpg);
+}
+
+body.page-industrial #feature {
+	background-image: url(../images/splash/feature/feature-industrial.png);
+}
+
 
 /* OFFICE */
 
+body.page-office #splash {
+	background-image: url(../images/splash/background/splash-office.jpg);
+}
 
 /* TECHNICAL */
 
+body.page-technical #splash {
+	background-image: url(../images/splash/background/splash-technical.jpg);
+}
 
 /* MEDICAL */
+
+body.page-medical #splash {
+	background-image: url(../images/splash/sbackground/plash-medical.jpg);
+}

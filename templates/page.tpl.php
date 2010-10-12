@@ -209,7 +209,6 @@
 
     </div></div> <!-- /#main, /#main-wrapper -->
 
-    <?php if ($footer || $footer_message || $secondary_links): ?>
       <div id="footer"><div class="section">
 
         <?php if ($footer_message): ?>
@@ -219,7 +218,6 @@
         <?php print $footer; ?>
 
       </div></div> <!-- /.section, /#footer -->
-    <?php endif; ?>
 
   </div></div> <!-- /#page, /.page-wrapper -->
 
