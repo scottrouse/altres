@@ -12,9 +12,7 @@
  */
  /* --------------------------------  */
  
-body {
-	background-color: aqua;
-}
+
 
 /* --------------------------------  */
 /* End DELETE */
@@ -29,6 +27,10 @@ body {
  * Overall Styles:
  *
  */
+
+body {
+	background-color: #002B5C;
+}
 
 .page-wrapper {
 	width: 980px;
@@ -139,7 +141,6 @@ body {
  */
 
 #feature {
-	background-color: fuchsia; /* DELETE -------------------- */
 	width: 980px;
 	height: 385px;
 	position: relative;
@@ -173,6 +174,7 @@ body {
 }
 
 #primary-links a, #primary-links a:link, #primary-links a:visited {
+	font-size: 14px;
 	position: relative;
 	top: 0;
 	z-index: 7;
@@ -181,9 +183,10 @@ body {
 	height: 103px;
 	padding-left: 32px;
 	text-transform: uppercase;
+	padding-top: 5px;
 }
 
-#primary-links a:hover, #primary-links a:focus, #primary-links a:active {
+#primary-links a:hover, #primary-links a:focus, #primary-links a:active, #primary-links a.active {
 	background-image: url(../images/staffing/staffing-hover-bg.png);
 }
 
@@ -208,6 +211,9 @@ body {
 #footer {
 	font-size: 10px;
 	line-height: 17px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	padding-bottom: 100px;
 }
 
 #block-block-1 {
@@ -244,6 +250,22 @@ body {
 	clear: left;
 }
 
+
+
+
+/*
+ * Splash Pages
+ *
+ */
+
+#page {
+	background: url(../images/bio-bg.jpg);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+}
+
+
+
 /*
  * Front Page
  *
@@ -253,6 +275,17 @@ body.front #splash {
 	background-image: url(../images/splash/background/splash-homepage.jpg);
 }
 
+body.front #feature {
+	background-image: url(../images/splash/feature/feature-homepage.png);
+}
+
+body.front h1.title {
+	display: none;
+}
+
+#about {
+	font-size: 11px;
+}
 
 /*
  * Major Sections:
@@ -271,11 +304,22 @@ body.page-industrial #feature {
 	background-image: url(../images/splash/feature/feature-industrial.png);
 }
 
+body.page-industrial h1.title {
+	display: none;
+}
 
 /* OFFICE */
 
 body.page-office #splash {
 	background-image: url(../images/splash/background/splash-office.jpg);
+}
+
+body.page-office #feature {
+	background-image: url(../images/splash/feature/feature-office.png);
+}
+
+body.page-office h1.title {
+	display: none;
 }
 
 /* TECHNICAL */
@@ -284,8 +328,59 @@ body.page-technical #splash {
 	background-image: url(../images/splash/background/splash-technical.jpg);
 }
 
+body.page-technical #feature {
+	background-image: url(../images/splash/feature/feature-technical.png);
+}
+
+body.page-technical h1.title {
+	display: none;
+}
+
 /* MEDICAL */
 
 body.page-medical #splash {
-	background-image: url(../images/splash/sbackground/plash-medical.jpg);
+	background-image: url(../images/splash/background/splash-medical.jpg);
+}
+
+body.page-medical #feature {
+	background-image: url(../images/splash/feature/feature-medical.png);
+}
+
+body.page-medical h1.title {
+	display: none;
+}
+
+
+
+
+
+/*
+ * Body Styles
+ * 
+ * 
+ *
+ */
+
+.quote {
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	font-size: 16px;
+	line-height: 21px;
+	padding: 8px 0;
+}
+
+.quote p {
+	margin: 0;
+}
+
+.column-left {
+	width: 45%;
+	float: left;
+	padding: 20px;
+}
+
+.column-right {
+	width: 45%;
+	float: right;
+	padding: 20px;
 }

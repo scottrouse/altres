@@ -145,13 +145,9 @@
 		</div>	<!-- /#staffing -->
 	</div>  <!-- /#splash -->
 
-  <div class="page-wrapper"><div id="page">
+  <div id="page"><div class="page-wrapper">
 
-    <div id="header"><div class="section clearfix">
-
-      <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-      <?php endif; ?>
+    <div id="content-header"><div class="section clearfix">
 
       <?php if ($site_name || $site_slogan): ?>
         <div id="name-and-slogan">
@@ -173,7 +169,7 @@
 
     </div></div> <!-- /.section, /#header -->
 
-    <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
+    <div id="main-wrapper"><div id="main" class="clearfix">
 
       <div id="content" class="column"><div class="section">
 
@@ -209,6 +205,10 @@
 
     </div></div> <!-- /#main, /#main-wrapper -->
 
+  </div></div><!-- /#page, /.page-wrapper -->
+  
+  <div class="page-wrapper">
+  
       <div id="footer"><div class="section">
 
         <?php if ($footer_message): ?>
@@ -218,8 +218,8 @@
         <?php print $footer; ?>
 
       </div></div> <!-- /.section, /#footer -->
-
-  </div></div> <!-- /#page, /.page-wrapper -->
+        
+  </div> <!-- .page-wrapper -->
 
   <?php print $page_closure; ?>
 
