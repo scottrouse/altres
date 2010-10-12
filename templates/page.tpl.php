@@ -123,28 +123,25 @@
 	<div id="splash">
 		<div class="page-wrapper">
 			<div id="header">
-				<div id="logo">&nbsp;</div>	<!-- /#logo -->
-				<div id="secondary-links" class="nav">
-					<?php print theme(array('links__system_secondary_menu', 'links'), $secondary_links, array(
-            			'id' => 'secondary-menu',
-            			'class' => 'links clearfix',
-          				),
-          				array(
-            				'text' => t('Secondary menu'),
-            				'level' => 'h2',
-            				'class' => 'element-invisible',
-          				));
-        			?>
-				</div>	<!-- /#secondary-links .nav -->
+				<div id="header-first">
+					<div id="logo">&nbsp;</div>	<!-- /#logo -->
+					<div id="secondary-links" class="nav">
+						<?php print theme('links', menu_navigation_links('secondary-links')); ?>
+					</div>	<!-- /#secondary-links .nav -->				
+				</div>	<!-- /#header-first -->
+				<div id="header-last">
+					<div id="logo">&nbsp;</div>	<!-- /#logo -->
+					<div id="tertiary-links" class="nav">
+						<?php print theme('links', menu_navigation_links('menu-tertiary-links')); ?>
+					</div>	<!-- /#tertiary-links .nav -->				
+				</div>	<!-- /#header-last -->
 			</div>	<!-- /#header -->
 			<div id="feature">&nbsp;</div>	<!-- /#feature -->
 		</div>	<!-- /.page-wrapper -->
 	</div>  <!-- /#splash -->
-	
-	
-  <?php if ($primary_links): ?>
-    <div id="skip-link"><a href="#main-menu"><?php print t('Jump to Navigation'); ?></a></div>
-  <?php endif; ?>
+	<div id="staffing">
+		<?php print theme('links', menu_navigation_links('primary-links')); ?>
+	</div>	<!-- /#staffing -->
 
   <div id="page-wrapper"><div id="page">
 
@@ -167,15 +164,7 @@
               </h1>
             <?php endif; ?>
           <?php endif; ?>
-
-          <?php if ($site_slogan): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
         </div> <!-- /#name-and-slogan -->
-      <?php endif; ?>
-
-      <?php if ($search_box): ?>
-        <div id="search-box"><?php print $search_box; ?></div>
       <?php endif; ?>
 
       <?php print $header; ?>
@@ -185,10 +174,6 @@
     <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
 
       <div id="content" class="column"><div class="section">
-
-        <?php if ($mission): ?>
-          <div id="mission"><?php print $mission; ?></div>
-        <?php endif; ?>
 
         <?php print $highlight; ?>
 
@@ -216,26 +201,6 @@
 
       </div></div> <!-- /.section, /#content -->
 
-      <?php if ($primary_links || $navigation): ?>
-        <div id="navigation"><div class="section clearfix">
-
-          <?php print theme(array('links__system_main_menu', 'links'), $primary_links,
-            array(
-              'id' => 'main-menu',
-              'class' => 'links clearfix',
-            ),
-            array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => 'element-invisible',
-            ));
-          ?>
-
-          <?php print $navigation; ?>
-
-        </div></div> <!-- /.section, /#navigation -->
-      <?php endif; ?>
-
       <?php print $sidebar_first; ?>
 
       <?php print $sidebar_second; ?>
@@ -244,18 +209,6 @@
 
     <?php if ($footer || $footer_message || $secondary_links): ?>
       <div id="footer"><div class="section">
-
-        <?php print theme(array('links__system_secondary_menu', 'links'), $secondary_links,
-          array(
-            'id' => 'secondary-menu',
-            'class' => 'links clearfix',
-          ),
-          array(
-            'text' => t('Secondary menu'),
-            'level' => 'h2',
-            'class' => 'element-invisible',
-          ));
-        ?>
 
         <?php if ($footer_message): ?>
           <div id="footer-message"><?php print $footer_message; ?></div>
