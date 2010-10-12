@@ -143,7 +143,7 @@
 		<?php print theme('links', menu_navigation_links('primary-links')); ?>
 	</div>	<!-- /#staffing -->
 
-  <div id="page-wrapper"><div id="page">
+  <div class="page-wrapper"><div id="page">
 
     <div id="header"><div class="section clearfix">
 
@@ -219,7 +219,7 @@
       </div></div> <!-- /.section, /#footer -->
     <?php endif; ?>
 
-  </div></div> <!-- /#page, /#page-wrapper -->
+  </div></div> <!-- /#page, /.page-wrapper -->
 
   <?php print $page_closure; ?>
 
