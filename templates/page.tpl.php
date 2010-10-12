@@ -121,11 +121,25 @@
 <body class="<?php print $classes; ?>">
 
 	<div id="splash">
-	
-	
-	
-	
-	</div>  <!-- #splash -->
+		<div class="page-wrapper">
+			<div id="header">
+				<div id="logo">&nbsp;</div>	<!-- /#logo -->
+				<div id="secondary-links" class="nav">
+					<?php print theme(array('links__system_secondary_menu', 'links'), $secondary_links, array(
+            			'id' => 'secondary-menu',
+            			'class' => 'links clearfix',
+          				),
+          				array(
+            				'text' => t('Secondary menu'),
+            				'level' => 'h2',
+            				'class' => 'element-invisible',
+          				));
+        			?>
+				</div>	<!-- /#secondary-links .nav -->
+			</div>	<!-- /#header -->
+			<div id="feature">&nbsp;</div>	<!-- /#feature -->
+		</div>	<!-- /.page-wrapper -->
+	</div>  <!-- /#splash -->
 	
 	
   <?php if ($primary_links): ?>
