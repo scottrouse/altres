@@ -54,7 +54,7 @@
  *   current page is in the menu.
  *
  * Site identity:
- * - $front_page: The URL of the front page. Use this instead of $base_path,
+ * - <: The URL of the front page. Use this instead of $base_path,
  *   when linking to the front page. This includes the language domain or prefix.
  * - $logo: The path to the logo image, as defined in theme configuration.
  * - $site_name: The name of the site, empty when display has been disabled
@@ -123,14 +123,14 @@
 	<div id="splash">
 		<div class="page-wrapper">
 			<div id="header">
-				<div id="header-first">
-					<div id="logo">&nbsp;</div>	<!-- /#logo -->
+				<div id="header-first" class="header-box">
+					<div id="logo-box"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">ALTRES</a></div>	<!-- /#logo -->
 					<div id="secondary-links" class="nav">
 						<?php print theme('links', menu_navigation_links('secondary-links')); ?>
 					</div>	<!-- /#secondary-links .nav -->				
 				</div>	<!-- /#header-first -->
-				<div id="header-last">
-					<div id="logo">&nbsp;</div>	<!-- /#logo -->
+				<div id="header-last" class="header-box">
+					<div id="quick-contact"><a href="http://simplicityhr.com" title="simplicityHR">simplicityHR.com</a></div>
 					<div id="tertiary-links" class="nav">
 						<?php print theme('links', menu_navigation_links('menu-tertiary-links')); ?>
 					</div>	<!-- /#tertiary-links .nav -->				
@@ -138,10 +138,12 @@
 			</div>	<!-- /#header -->
 			<div id="feature">&nbsp;</div>	<!-- /#feature -->
 		</div>	<!-- /.page-wrapper -->
+		<div id="staffing">
+			<div id="primary-links" class="nav">
+				<?php print theme('links', menu_navigation_links('primary-links')); ?>
+			</div>	<!-- /#primary-links .nav -->
+		</div>	<!-- /#staffing -->
 	</div>  <!-- /#splash -->
-	<div id="staffing">
-		<?php print theme('links', menu_navigation_links('primary-links')); ?>
-	</div>	<!-- /#staffing -->
 
   <div class="page-wrapper"><div id="page">
 
