@@ -48,6 +48,31 @@ body {
 	background-color: #002B5C;
 }
 
+
+
+/*
+ * Page Layout
+ * These styles override those in layout-fixed.css
+ *
+ */
+
+.two-sidebars #content {
+	margin-left: 250px;
+	width: 460px;
+}
+
+.region-sidebar-first {
+	width: 250px;
+}
+
+.region-sidebar-second {
+	width: 250px;
+	margin-left: 668px;
+	padding-top: 50px;
+}
+
+
+
 /*
  * Header Area
  *
@@ -582,7 +607,21 @@ body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-pol
 	padding: 20px;
 }
 
+.hr-center {
+	border-top: 1px solid #000000;
+}
 
+.hr-left-center {
+	border-top: 1px solid #000000;
+}
+
+.hr-right-center {
+	border-top: 1px solid #000000;
+}
+
+.hr-let-right-center {
+	border-top: 1px solid #000000;
+}
 
 /*
  * Sidebar Styles
@@ -607,4 +646,18 @@ body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-pol
 
 #main .block-menu_block .menu li.active {
 	list-style-image: url(../images/nav/sidebar-menu-over.png);
+}
+
+
+/* INFOGRAPHICS AND STANDARD BLOCKS */
+
+.sidebar .block {
+	margin-top: 20px;
+}
+
+#main .sidebar h2.title {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 0.7em;
 }
