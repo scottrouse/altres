@@ -258,7 +258,7 @@ body {
  *
  */
 
-#page {
+body.front #page, body.page-industrial #page, body.page-office #page, body.page-technical #page, body.page-medical #page {
 	background: url(../images/bio-bg.jpg);
 	background-repeat: repeat-x;
 	color: #FFFFFF;
@@ -294,6 +294,7 @@ body.front h1.title {
  *
  */
 
+
 /* INDUSTRIAL */
 
 body.page-industrial #splash {
@@ -307,6 +308,31 @@ body.page-industrial #feature {
 body.page-industrial h1.title {
 	display: none;
 }
+
+body.section-industrial #main {
+	background-color: #FFFFFF;
+}
+
+body.page-industrial #main {
+	background: none;
+}
+
+body.section-industrial {
+	background-color: #000000;
+}
+
+body.page-industrial {
+	background-color: #002B5C;
+}
+
+body.section-industrial .header-box {
+	background-color: #000000;
+}
+
+body.page-industrial .header-box {
+	background-color: #00295F;
+}
+
 
 /* OFFICE */
 
@@ -322,6 +348,31 @@ body.page-office h1.title {
 	display: none;
 }
 
+body.section-office #main {
+	background-color: #FFFFFF;
+}
+
+body.page-office #main {
+	background: none;
+}
+
+body.section-office {
+	background-color: #D6D7D8;
+}
+
+body.page-office {
+	background-color: #002B5C;
+}
+
+body.section-office .header-box {
+	background-color: #7D6A55;
+}
+
+body.page-office .header-box {
+	background-color: #00295F;
+}
+
+
 /* TECHNICAL */
 
 body.page-technical #splash {
@@ -335,6 +386,31 @@ body.page-technical #feature {
 body.page-technical h1.title {
 	display: none;
 }
+
+body.section-technical #main {
+	background-color: #FFFFFF;
+}
+
+body.page-technical #main {
+	background: none;
+}
+
+body.section-technical {
+	background-color: #D6D7D8;
+}
+
+body.page-technical {
+	background-color: #002B5C;
+}
+
+body.section-technical .header-box {
+	background-color: #404041;
+}
+
+body.page-technical .header-box {
+	background-color: #00295F;
+}
+
 
 /* MEDICAL */
 
@@ -350,7 +426,29 @@ body.page-medical h1.title {
 	display: none;
 }
 
+body.section-medical #main {
+	background-color: #FFFFFF;
+}
 
+body.page-medical #main {
+	background: none;
+}
+
+body.section-medical {
+	background-color: #D6D7D8;
+}
+
+body.page-medical {
+	background-color: #002B5C;
+}
+
+body.section-medical .header-box {
+	background-color: #00649C;
+}
+
+body.page-medical .header-box {
+	background-color: #00295F;
+}
 
 
 
