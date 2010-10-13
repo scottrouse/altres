@@ -317,6 +317,18 @@ body.page-industrial #main {
 	background: none;
 }
 
+body.section-industrial #logo {
+	background: url(../images/logos/altres-industrial-logo.png);
+	height: 32px;
+	width: 147px;
+}
+
+body.page-industrial #logo {
+	background: url(../images/logos/altres-logo.png);
+	height: 19px;
+	width: 149px;
+}
+
 body.section-industrial {
 	background-color: #000000;
 }
@@ -358,6 +370,18 @@ body.section-office #main {
 
 body.page-office #main {
 	background: none;
+}
+
+body.section-office #logo {
+	background: url(../images/logos/altres-office-logo.png);
+	height: 32px;
+	width: 147px;
+}
+
+body.page-office #logo {
+	background: url(../images/logos/altres-logo.png);
+	height: 19px;
+	width: 149px;
 }
 
 body.section-office {
@@ -403,6 +427,18 @@ body.page-technical #main {
 	background: none;
 }
 
+body.section-technical #logo {
+	background: url(../images/logos/altres-technical-logo.png);
+	height: 32px;
+	width: 147px;
+}
+
+body.page-technical #logo {
+	background: url(../images/logos/altres-logo.png);
+	height: 19px;
+	width: 149px;
+}
+
 body.section-technical {
 	background-color: #D6D7D8;
 }
@@ -446,6 +482,18 @@ body.page-medical #main {
 	background: none;
 }
 
+body.section-medical #logo {
+	background: url(../images/logos/altres-medical-logo.png);
+	height: 32px;
+	width: 147px;
+}
+
+body.page-medical #logo {
+	background: url(../images/logos/altres-logo.png);
+	height: 19px;
+	width: 149px;
+}
+
 body.section-medical {
 	background-color: #D6D7D8;
 }
@@ -474,7 +522,7 @@ body.section-medical #main h2 {
  *
  */
 
-body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-policy #main, body.page-contact-us #main {
+body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-policy #main, body.page-contact-us #main, body.page-payroll #main, body.page-training #main, body.page-neighbor-islands #main {
 	background-color: #FFFFFF;
 }
 
@@ -502,7 +550,12 @@ body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-pol
 }
 
 #main a {
+	color: #ED1C2E;
+}
 
+.caption {
+	font-size: 0.8em;
+	font-style: italic;
 }
 
 .quote {
@@ -527,4 +580,31 @@ body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-pol
 	width: 45%;
 	float: right;
 	padding: 20px;
+}
+
+
+
+/*
+ * Sidebar Styles
+ * 
+ * 
+ *
+ */
+
+/* NAVIGATION */
+
+#main .block-menu_block .menu a {
+	color: #000000;
+}
+
+#main .block-menu_block .menu a.active {
+	font-weight: bold;
+}
+
+#main .block-menu_block .menu li.leaf {
+	list-style-image: url(../images/nav/sidebar-menu-up.png);
+}
+
+#main .block-menu_block .menu li.active {
+	list-style-image: url(../images/nav/sidebar-menu-over.png);
 }
