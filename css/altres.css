@@ -333,6 +333,10 @@ body.page-industrial .header-box {
 	background-color: #00295F;
 }
 
+body.section-industrial #main h2 {
+	color: #0067B1;
+}
+
 
 /* OFFICE */
 
@@ -370,6 +374,10 @@ body.section-office .header-box {
 
 body.page-office .header-box {
 	background-color: #00295F;
+}
+
+body.section-office #main h2 {
+	color: #6B2772;
 }
 
 
@@ -411,6 +419,10 @@ body.page-technical .header-box {
 	background-color: #00295F;
 }
 
+body.section-technical #main h2 {
+	color: #ED1C2E;
+}
+
 
 /* MEDICAL */
 
@@ -450,6 +462,21 @@ body.page-medical .header-box {
 	background-color: #00295F;
 }
 
+body.section-medical #main h2 {
+	color: #0067B1;
+}
+
+
+/*
+ * Other Pages:
+ * Styles in this region provide styling for misc pages such as:
+ * Sitemap, Terms of Service, Privacy Policy, Contact Us, etc
+ *
+ */
+
+body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-policy #main, body.page-contact-us #main {
+	background-color: #FFFFFF;
+}
 
 
 /*
@@ -458,6 +485,25 @@ body.page-medical .header-box {
  * 
  *
  */
+
+#main {
+	font-family: Georgia, serif;
+	color: #4D4D4F;
+}
+
+#main h1 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#main h2 {
+	font-weight: normal;
+}
+
+#main a {
+
+}
 
 .quote {
 	border-bottom: 1px solid #FFFFFF;
