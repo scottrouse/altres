@@ -617,14 +617,19 @@ body.section-about-us, body.section-successes, body.section-insights {
 
 .hr-left-center {
 	border-top: 1px solid #000000;
+	width: 710px;
+	margin-left: -235px;
 }
 
 .hr-right-center {
 	border-top: 1px solid #000000;
+	width: 710px
 }
 
-.hr-let-right-center {
+.hr-left-right-center {
 	border-top: 1px solid #000000;
+	width: 950px;
+	margin-left: -235px;
 }
 
 /*
