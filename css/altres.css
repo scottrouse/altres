@@ -547,7 +547,7 @@ body.section-medical #main h2 {
  *
  */
 
-body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-policy #main, body.page-contact-us #main, body.page-payroll #main, body.page-training #main, body.page-neighbor-islands #main {
+body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-policy #main, body.page-contact-us #main, body.page-payroll #main, body.page-training #main, body.page-neighbor-islands #main, body.section-about-us #main, body.section-successes #main, body.section-insights #main {
 	background-color: #FFFFFF;
 }
 
