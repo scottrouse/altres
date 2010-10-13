@@ -551,6 +551,10 @@ body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-pol
 	background-color: #FFFFFF;
 }
 
+body.section-about-us, body.section-successes, body.section-insights {
+	background-color: #D6D7D8;
+}
+
 
 /*
  * Body Styles
