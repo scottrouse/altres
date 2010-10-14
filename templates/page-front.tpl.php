@@ -140,7 +140,20 @@
 		</div>	<!-- /.page-wrapper -->
 		<div id="staffing">
 			<div id="primary-links" class="nav">
-				<?php print theme('links', menu_navigation_links('primary-links')); ?>
+				<ul class="links">
+					<li class="menu-230 first">
+						<a href="/industrial" title="Construction, general labor, special projects, warehouse, drivers, carpenters...">Industrial</a>
+					</li>
+					<li class="menu-231">
+						<a href="/office" title="General office, customer service, administrative, data entry, assistants, word processors...">Office</a>
+					</li>
+					<li class="menu-232">
+						<a href="/technical" title="Engineers, CAD drafters, systems analysis and design, programmers, system administrators...">Technical</a>
+					</li>
+					<li class="menu-233 last">
+						<a href="/medical" title="RNs, CNAs, LPNs, MAs, NAs, ER Techs, Psych Techs...">Medical</a>
+					</li>
+				</ul>
 			</div>	<!-- /#primary-links .nav -->
 		</div>	<!-- /#staffing -->
 	</div>  <!-- /#splash -->
