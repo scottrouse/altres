@@ -173,6 +173,28 @@ body {
 	top: 90px;
 }
 
+#feature .feature, #feature .feature a, #feature .feature a img {
+	width: 980px;
+	height: 385px;
+}
+
+#feature .feature a {
+	display: block;
+	position: relative;
+}
+
+#feature .feature a img {
+	position: absolute;
+	left: 0px;
+}
+
+body.front #feature .feature {
+	display: none;
+}
+
+body.front #feature #feature-front {
+	display: inherit;
+}
 
 /*
  * Main Staffing Links
@@ -307,6 +329,8 @@ body.front h1.title {
 #about {
 	font-size: 11px;
 }
+
+
 
 /*
  * Major Sections:
@@ -473,7 +497,7 @@ body.section-technical #main h2 {
 
 body.page-medical #splash {
 	background-image: url(../images/splash/background/splash-medical.jpg);
-}
+}	
 
 body.page-medical h1.title {
 	display: none;
