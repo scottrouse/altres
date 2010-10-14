@@ -595,6 +595,18 @@ body.section-about-us #primary-links a:hover, body.section-about-us #primary-lin
 }
 
 
+
+/* CONTACT US */
+
+body.page-contact-us #staffing {
+	background-image: url(../images/staffing/contact-bg.png);
+}
+
+body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links a:focus, body.page-contact-us #primary-links a:active, body.page-contact-us #primary-links a.active {
+	background-image: url(../images/staffing/contact-hover-bg.png);
+}
+
+
 /*
  * Body Styles
  * 
