@@ -120,7 +120,7 @@
 </head>
 <body class="<?php print $classes; ?>">
 
-	<div id="splash">
+	<div id="splash" class="homepage">
 		<div class="page-wrapper">
 			<div id="header">
 				<div id="header-first" class="header-box">
