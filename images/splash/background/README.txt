@@ -1,0 +1,1 @@
+Files in this folder are used on the Front page of the website as large background images in the top content area. You may replace these images as needed, but their names should not be changed.
