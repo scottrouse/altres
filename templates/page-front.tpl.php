@@ -139,27 +139,27 @@
 			<div id="feature">
 				<div id="feature-homepage" class="feature">
 					<a href="#" title="Home">
-						<img src="../images/splash/feature/feature-homepage.jpg" alt="Home" width="980" height="385" class="feature-img" />
+						<img src="../images/splash/feature/feature-homepage.png" alt="Home" width="980" height="385" class="feature-img" />
 					</a>
 				</div> <!-- /#feature-homepage -->
 				<div id="feature-industrial" class="feature">
 					<a href="/industrial/things-we-do" title="Industrial">
-						<img src="../images/splash/feature/feature-industrial.jpg" alt="Industrial" width="980" height="385" class="feature-img" />
+						<img src="../images/splash/feature/feature-industrial.png" alt="Industrial" width="980" height="385" class="feature-img" />
 					</a>
 				</div> <!-- /#feature-industrial -->
 				<div id="feature-office" class="feature">
 					<a href="/office/things-we-do" title="Office">
-						<img src="../images/splash/feature/feature-office.jpg" alt="Office" width="980" height="385" class="feature-img" />
+						<img src="../images/splash/feature/feature-office.png" alt="Office" width="980" height="385" class="feature-img" />
 					</a>
 				</div> <!-- /#feature-office -->			
 				<div id="feature-technical" class="feature">
 					<a href="/technical/things-we-do" title="Technical">
-						<img src="../images/splash/feature/feature-technical.jpg" alt="Technical" width="980" height="385" class="feature-img" />
+						<img src="../images/splash/feature/feature-technical.png" alt="Technical" width="980" height="385" class="feature-img" />
 					</a>
 				</div> <!-- /#feature-technical -->
 				<div id="feature-medical" class="feature">
 					<a href="/medical/things-we-do" title="Medical">
-						<img src="../images/splash/feature/feature-medical.jpg" alt="Medical" width="980" height="385" class="feature-img" />
+						<img src="../images/splash/feature/feature-medical.png" alt="Medical" width="980" height="385" class="feature-img" />
 					</a>
 				</div> <!-- /#feature-medical -->			
 			</div>	<!-- /#feature -->
