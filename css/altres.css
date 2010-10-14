@@ -663,23 +663,35 @@ body.section-about-us #primary-links a:hover, body.section-about-us #primary-lin
 
 .hr-center {
 	border-top: 1px solid #000000;
+	clear: both;
 }
 
 .hr-left-center {
 	border-top: 1px solid #000000;
 	width: 710px;
 	margin-left: -235px;
+	clear: both;
 }
 
 .hr-right-center {
 	border-top: 1px solid #000000;
-	width: 710px
+	width: 710px;
+	clear: both;
 }
 
 .hr-left-right-center {
 	border-top: 1px solid #000000;
 	width: 950px;
 	margin-left: -235px;
+	clear: both;
+}
+
+img.align-right {
+	float: right;
+}
+
+img.align-left {
+	float: left;
 }
 
 /*
