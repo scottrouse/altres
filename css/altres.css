@@ -300,10 +300,6 @@ body.front #splash {
 	background-image: url(../images/splash/background/splash-homepage.jpg);
 }
 
-body.front #feature {
-	background-image: url(../images/splash/feature/feature-homepage.png);
-}
-
 body.front h1.title {
 	display: none;
 }
@@ -324,10 +320,6 @@ body.front h1.title {
 
 body.page-industrial #splash {
 	background-image: url(../images/splash/background/splash-industrial.jpg);
-}
-
-body.page-industrial #feature {
-	background-image: url(../images/splash/feature/feature-industrial.png);
 }
 
 body.page-industrial h1.title {
@@ -381,10 +373,6 @@ body.page-office #splash {
 	background-image: url(../images/splash/background/splash-office.jpg);
 }
 
-body.page-office #feature {
-	background-image: url(../images/splash/feature/feature-office.png);
-}
-
 body.page-office h1.title {
 	display: none;
 }
@@ -436,10 +424,6 @@ body.page-technical #splash {
 	background-image: url(../images/splash/background/splash-technical.jpg);
 }
 
-body.page-technical #feature {
-	background-image: url(../images/splash/feature/feature-technical.png);
-}
-
 body.page-technical h1.title {
 	display: none;
 }
@@ -489,10 +473,6 @@ body.section-technical #main h2 {
 
 body.page-medical #splash {
 	background-image: url(../images/splash/background/splash-medical.jpg);
-}
-
-body.page-medical #feature {
-	background-image: url(../images/splash/feature/feature-medical.png);
 }
 
 body.page-medical h1.title {
