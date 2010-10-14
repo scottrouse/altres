@@ -168,16 +168,16 @@
 			<div id="primary-links" class="nav">
 				<ul class="links">
 					<li class="menu-230 first">
-						<a href="#" title="Construction, general labor, special projects, warehouse, drivers, carpenters...">Industrial</a>
+						<a href="#" id="industrial" title="Construction, general labor, special projects, warehouse, drivers, carpenters...">Industrial</a>
 					</li>
 					<li class="menu-231">
-						<a href="#" title="General office, customer service, administrative, data entry, assistants, word processors...">Office</a>
+						<a href="#" id="office" title="General office, customer service, administrative, data entry, assistants, word processors...">Office</a>
 					</li>
 					<li class="menu-232">
-						<a href="#" title="Engineers, CAD drafters, systems analysis and design, programmers, system administrators...">Technical</a>
+						<a href="#" id="technical" title="Engineers, CAD drafters, systems analysis and design, programmers, system administrators...">Technical</a>
 					</li>
 					<li class="menu-233 last">
-						<a href="#" title="RNs, CNAs, LPNs, MAs, NAs, ER Techs, Psych Techs...">Medical</a>
+						<a href="#" id="medical" title="RNs, CNAs, LPNs, MAs, NAs, ER Techs, Psych Techs...">Medical</a>
 					</li>
 				</ul>
 			</div>	<!-- /#primary-links .nav -->
