@@ -349,16 +349,8 @@ body.front div.industrial-splash {
 	background-image: url(../images/splash/background/splash-industrial.jpg);
 }
 
-body.page-industrial h1.title {
-	display: none;
-}
-
 body.section-industrial #main {
 	background-color: #FFFFFF;
-}
-
-body.page-industrial #main {
-	background: none;
 }
 
 body.section-industrial #logo {
@@ -367,26 +359,12 @@ body.section-industrial #logo {
 	width: 147px;
 }
 
-body.page-industrial #logo {
-	background: url(../images/logos/altres-logo.png);
-	height: 19px;
-	width: 149px;
-}
-
 body.section-industrial {
 	background-color: #000000;
 }
 
-body.page-industrial {
-	background-color: #002B5C;
-}
-
 body.section-industrial .header-box {
 	background-color: #000000;
-}
-
-body.page-industrial .header-box {
-	background-color: #00295F;
 }
 
 body.section-industrial #main h2 {
@@ -400,16 +378,8 @@ body.front div.office-splash {
 	background-image: url(../images/splash/background/splash-office.jpg);
 }
 
-body.page-office h1.title {
-	display: none;
-}
-
 body.section-office #main {
 	background-color: #FFFFFF;
-}
-
-body.page-office #main {
-	background: none;
 }
 
 body.section-office #logo {
@@ -418,26 +388,12 @@ body.section-office #logo {
 	width: 147px;
 }
 
-body.page-office #logo {
-	background: url(../images/logos/altres-logo.png);
-	height: 19px;
-	width: 149px;
-}
-
 body.section-office {
 	background-color: #D6D7D8;
 }
 
-body.page-office {
-	background-color: #002B5C;
-}
-
 body.section-office .header-box {
 	background-color: #7D6A55;
-}
-
-body.page-office .header-box {
-	background-color: #00295F;
 }
 
 body.section-office #main h2 {
@@ -451,16 +407,8 @@ body.front div.technical-splash {
 	background-image: url(../images/splash/background/splash-technical.jpg);
 }
 
-body.page-technical h1.title {
-	display: none;
-}
-
 body.section-technical #main {
 	background-color: #FFFFFF;
-}
-
-body.page-technical #main {
-	background: none;
 }
 
 body.section-technical #logo {
@@ -469,26 +417,12 @@ body.section-technical #logo {
 	width: 147px;
 }
 
-body.page-technical #logo {
-	background: url(../images/logos/altres-logo.png);
-	height: 19px;
-	width: 149px;
-}
-
 body.section-technical {
 	background-color: #D6D7D8;
 }
 
-body.page-technical {
-	background-color: #002B5C;
-}
-
 body.section-technical .header-box {
 	background-color: #404041;
-}
-
-body.page-technical .header-box {
-	background-color: #00295F;
 }
 
 body.section-technical #main h2 {
@@ -500,18 +434,10 @@ body.section-technical #main h2 {
 
 body.front div.medical-splash {
 	background-image: url(../images/splash/background/splash-medical.jpg);
-}	
-
-body.page-medical h1.title {
-	display: none;
 }
 
 body.section-medical #main {
 	background-color: #FFFFFF;
-}
-
-body.page-medical #main {
-	background: none;
 }
 
 body.section-medical #logo {
@@ -520,26 +446,12 @@ body.section-medical #logo {
 	width: 147px;
 }
 
-body.page-medical #logo {
-	background: url(../images/logos/altres-logo.png);
-	height: 19px;
-	width: 149px;
-}
-
 body.section-medical {
 	background-color: #D6D7D8;
 }
 
-body.page-medical {
-	background-color: #002B5C;
-}
-
 body.section-medical .header-box {
 	background-color: #00649C;
-}
-
-body.page-medical .header-box {
-	background-color: #00295F;
 }
 
 body.section-medical #main h2 {
