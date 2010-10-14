@@ -38,6 +38,11 @@ body {
 	margin-right: auto;
 }
 
+#page {
+	position: relative;
+	/* z-index: -3; */
+}
+
 #splash {
 	padding: 20px 0 0;
 	background-position: center top;
@@ -46,6 +51,10 @@ body {
 	position: relative;
 	z-index: 0;
 	background-color: #002B5C;
+}
+
+body.not-front #splash {
+	height: 480px;
 }
 
 
@@ -211,6 +220,11 @@ body.front #feature #feature-homepage {
 	padding-top: 18px;
 }
 
+body.not-front #staffing {
+	height: 111px;
+	top: 6px;
+}
+
 #primary-links {
 	position: relative;
 	width: 980px;
@@ -218,6 +232,10 @@ body.front #feature #feature-homepage {
 	margin-right: auto;
 	height: 103px;
 	z-index: 5;
+}
+
+body.not-front #primary-links {
+	height: 111px;
 }
 
 #primary-links a, #primary-links a:link, #primary-links a:visited {
@@ -231,6 +249,11 @@ body.front #feature #feature-homepage {
 	padding-left: 32px;
 	text-transform: uppercase;
 	padding-top: 5px;
+}
+
+body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-front #primary-links a:visited {
+	height: 59px;
+	padding-top: 19px;
 }
 
 #primary-links a span {
@@ -335,6 +358,17 @@ body.front #main {
 }
 
 
+
+
+/*
+ * Not the Front Page
+ *
+ */
+
+
+
+
+
 /*
  * Major Sections:
  * Styles in this region provide styling for each of the four major regions:
@@ -371,6 +405,18 @@ body.section-industrial #main h2 {
 	color: #0067B1;
 }
 
+body.section-industrial #staffing {
+	background-image: url(../images/staffing/industrial-bg.png);
+}
+
+body.section-industrial #primary-links a:hover, body.section-industrial #primary-links a:focus, body.section-industrial #primary-links a:active, body.section-industrial #primary-links a.active {
+	background-image: url(../images/staffing/industrial-hover-bg.png);
+}
+
+body.section-industrial #splash {
+	background-image: url(../images/splash/background/interior-industrial.jpg);
+}
+
 
 /* OFFICE */
 
@@ -398,6 +444,18 @@ body.section-office .header-box {
 
 body.section-office #main h2 {
 	color: #6B2772;
+}
+
+body.section-office #staffing {
+	background-image: url(../images/staffing/office-bg.png);
+}
+
+body.section-office #primary-links a:hover, body.section-office #primary-links a:focus, body.section-office #primary-links a:active, body.section-office #primary-links a.active {
+	background-image: url(../images/staffing/office-hover-bg.png);
+}
+
+body.section-office #splash {
+	background-image: url(../images/splash/background/interior-office.jpg);
 }
 
 
@@ -429,6 +487,18 @@ body.section-technical #main h2 {
 	color: #ED1C2E;
 }
 
+body.section-technical #staffing {
+	background-image: url(../images/staffing/technical-bg.png);
+}
+
+body.section-technical #primary-links a:hover, body.section-technical #primary-links a:focus, body.section-technical #primary-links a:active, body.section-technical #primary-links a.active {
+	background-image: url(../images/staffing/technical-hover-bg.png);
+}
+
+body.section-technical #splash {
+	background-image: url(../images/splash/background/interior-technical.jpg);
+}
+
 
 /* MEDICAL */
 
@@ -456,6 +526,18 @@ body.section-medical .header-box {
 
 body.section-medical #main h2 {
 	color: #0067B1;
+}
+
+body.section-medical #staffing {
+	background-image: url(../images/staffing/medical-bg.png);
+}
+
+body.section-medical #primary-links a:hover, body.section-medical #primary-links a:focus, body.section-medical #primary-links a:active, body.section-medical #primary-links a.active {
+	background-image: url(../images/staffing/medical-hover-bg.png);
+}
+
+body.section-medical #splash {
+	background-image: url(../images/splash/background/interior-medical.jpg);
 }
 
 
