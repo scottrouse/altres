@@ -324,7 +324,7 @@ body.front #page, body.page-industrial #page, body.page-office #page, body.page-
  *
  */
 
-body.front #splash {
+body.front div.homepage-splash {
 	background-image: url(../images/splash/background/splash-homepage.jpg);
 }
 
@@ -347,7 +347,7 @@ body.front h1.title {
 
 /* INDUSTRIAL */
 
-body.page-industrial #splash {
+body.front div.industrial-splash {
 	background-image: url(../images/splash/background/splash-industrial.jpg);
 }
 
@@ -398,7 +398,7 @@ body.section-industrial #main h2 {
 
 /* OFFICE */
 
-body.page-office #splash {
+body.front div.office-splash {
 	background-image: url(../images/splash/background/splash-office.jpg);
 }
 
@@ -449,7 +449,7 @@ body.section-office #main h2 {
 
 /* TECHNICAL */
 
-body.page-technical #splash {
+body.front div.technical-splash {
 	background-image: url(../images/splash/background/splash-technical.jpg);
 }
 
@@ -500,7 +500,7 @@ body.section-technical #main h2 {
 
 /* MEDICAL */
 
-body.page-medical #splash {
+body.front div.medical-splash {
 	background-image: url(../images/splash/background/splash-medical.jpg);
 }	
 
