@@ -233,6 +233,12 @@ body.front #feature #feature-homepage {
 	padding-top: 5px;
 }
 
+#primary-links a span {
+	font-size: 11px;
+	text-transform: none;
+	display: none;	/* Hidden by default. Span text is shown on hover and click via splash.js */
+}
+
 #primary-links a:hover, #primary-links a:focus, #primary-links a:active, #primary-links a.active {
 	background-image: url(../images/staffing/staffing-hover-bg.png);
 }
