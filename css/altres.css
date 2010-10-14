@@ -306,18 +306,6 @@ body.front #feature #feature-homepage {
 
 
 
-/*
- * Splash Pages
- *
- */
-
-body.front #page, body.page-industrial #page, body.page-office #page, body.page-technical #page, body.page-medical #page {
-	background: url(../images/bio-bg.jpg);
-	background-repeat: repeat-x;
-	color: #FFFFFF;
-}
-
-
 
 /*
  * Front Page
@@ -334,6 +322,16 @@ body.front h1.title {
 
 #about {
 	font-size: 11px;
+}
+
+body.front #page {
+	background: url(../images/bio-bg.jpg);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+}
+
+body.front #main {
+	color: #FFFFFF;
 }
 
 
