@@ -561,7 +561,11 @@ body.section-about-us, body.section-successes, body.section-insights {
 
 body.section-about-us #staffing {
 	background-image: url(../images/staffing/about-bg.png);
-} 
+}
+
+body.section-about-us #primary-links a:hover, body.section-about-us #primary-links a:focus, body.section-about-us #primary-links a:active, body.section-about-us #primary-links a.active {
+	background-image: url(../images/staffing/about-hover-bg.png);
+}
 
 
 /*
