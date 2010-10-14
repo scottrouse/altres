@@ -566,12 +566,23 @@ body.section-about-us, body.section-successes, body.section-insights {
 #main {
 	font-family: Georgia, serif;
 	color: #4D4D4F;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	position: relative;
 }
 
 #main h1 {
 	color: #000000;
 	font-weight: bold;
 	font-size: 40px;
+}
+
+#main h1.title {
+	font-size: 1.1em;
+	margin-left: -225px;
+	float: left;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 5px;
 }
 
 #main h2 {
@@ -640,6 +651,10 @@ body.section-about-us, body.section-successes, body.section-insights {
  */
 
 /* NAVIGATION */
+
+#main .block-menu_block {
+	margin-top: 50px;
+}
 
 #main .block-menu_block .menu a {
 	color: #000000;
