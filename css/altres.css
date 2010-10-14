@@ -561,6 +561,29 @@ body.section-about-us, body.section-successes, body.section-insights {
 }
 
 
+/* INSIGHTS */
+
+body.section-insights #staffing {
+	background-image: url(../images/staffing/insights-bg.png);
+}
+
+body.section-insights #primary-links a:hover, body.section-insights #primary-links a:focus, body.section-insights #primary-links a:active, body.section-insights #primary-links a.active {
+	background-image: url(../images/staffing/insights-hover-bg.png);
+}
+
+
+
+/* SUCCESSES */
+
+body.section-successes #staffing {
+	background-image: url(../images/staffing/successes-bg.png);
+}
+
+body.section-successes #primary-links a:hover, body.section-successes #primary-links a:focus, body.section-successes #primary-links a:active, body.section-successes #primary-links a.active {
+	background-image: url(../images/staffing/successes-hover-bg.png);
+}
+
+
 /* ABOUT US */
 
 body.section-about-us #staffing {
