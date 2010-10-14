@@ -57,7 +57,9 @@ body.not-front #splash {
 	height: 480px;
 }
 
-
+img {
+	margin: 3px;
+}
 
 /*
  * Page Layout
@@ -740,6 +742,8 @@ img.align-left {
 
 .sidebar .block {
 	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #main .sidebar h2.title {
@@ -748,3 +752,20 @@ img.align-left {
 	text-align: center;
 	font-size: 0.7em;
 }
+
+.sidebar .hr-center {
+	margin-top: 20px;
+}
+
+
+/* HEADERS */
+
+.sidebar h2 {
+	font-size: 1.2em;
+}
+
+.sidebar h3 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
