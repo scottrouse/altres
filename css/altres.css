@@ -7,7 +7,7 @@
 
 /* --------------------------------  */
 /*
- * TEMP Styles - DELETE when dev is complete
+ * TEMP Styles - DELETE when development is complete
  *
  */
  /* --------------------------------  */
@@ -555,6 +555,13 @@ body.page-sitemap #main, body.page-terms-of-service #main, body.page-privacy-pol
 body.section-about-us, body.section-successes, body.section-insights {
 	background-color: #D6D7D8;
 }
+
+
+/* ABOUT US */
+
+body.section-about-us #staffing {
+	background-image: url(../images/staffing/about-bg.png);
+} 
 
 
 /*
