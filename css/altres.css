@@ -155,11 +155,15 @@ body.not-front #splash {
 }
 
 #quick-contact {
-	font-weight: bold;
+	color: #FFFFFF;
 	position: relative;
 	top: 10px;
 	right: 15px;
 	text-align: right;
+}
+
+#quick-contact a {
+	font-weight: bold;
 }
 
 #tertiary-links {
