@@ -109,9 +109,11 @@ img {
 
 .header-box {
 	background-color: #00295F;
-	box-shadow: 0px 0px 5px #000;
+	/*
+box-shadow: 0px 0px 5px #000;
 	-moz-box-shadow: 0px 0px 5px #000;
 	-webkit-box-shadow: 0px 0px 5px #000;
+*/
 	position: relative;
 }
 
@@ -153,7 +155,8 @@ img {
 }
 
 #secondary-links a:hover, #secondary-links a:focus, #secondary-links a:active {
-	border-bottom: 1px dotted #FFFFFF;
+	border-bottom: 1px dotted #00A5D9;
+	color: #00A5D9;
 }
 
 #quick-contact {
@@ -340,6 +343,10 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
  * Front Page
  *
  */
+
+body.front {
+	background-color: #000000;
+}
 
 body.front div.homepage-splash {
 	background-image: url(../images/splash/background/splash-homepage.jpg);

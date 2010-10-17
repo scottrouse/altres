@@ -210,7 +210,7 @@
 
     <div id="main-wrapper"><div id="main" class="clearfix">
 
-      <div id="content" class="column"><div class="section">
+      <div id="content" class="column tk-museo-sans"><div class="section">
 
         <?php print $highlight; ?>
 
