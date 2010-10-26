@@ -158,6 +158,7 @@
         <?php print $breadcrumb; ?>
         <?php if ($title): ?>
           <h1 class="title"><?php print $title; ?></h1>
+          <hr class="title" />
         <?php endif; ?>
         <?php print $messages; ?>
         <?php if ($tabs): ?>
