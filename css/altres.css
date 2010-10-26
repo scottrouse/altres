@@ -41,7 +41,7 @@ body {
 #page {
 	position: relative;
 	overflow: hidden;
-	z-index: -3;
+	/* z-index: -3; */
 }
 
 #splash {
@@ -60,6 +60,10 @@ body.not-front #splash {
 
 img {
 	margin: 3px;
+}
+
+#main p {
+	line-height: 1.4em;
 }
 
 /*
@@ -149,7 +153,7 @@ box-shadow: 0px 0px 5px #000;
 	right: 115px;
 	text-align: right;
 	font-family:"museo-sans-1","museo-sans-2",sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 #secondary-links ul.links li {
@@ -176,7 +180,7 @@ box-shadow: 0px 0px 5px #000;
 	text-align: right;
 	position: relative;
 	top: 40px;
-	font-size: 1.2em;
+	font-size: 11px;
 	padding-right: 5px;
 }
 
@@ -255,7 +259,7 @@ body.not-front #primary-links {
 }
 
 #primary-links a, #primary-links a:link, #primary-links a:visited {
-	font-size: 14px;
+	font-size: 16px;
 	position: relative;
 	top: 0;
 	z-index: 7;
@@ -270,6 +274,7 @@ body.not-front #primary-links {
 body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-front #primary-links a:visited {
 	height: 59px;
 	padding-top: 19px;
+	text-transform: capitalize;
 }
 
 #primary-links a span {
@@ -377,7 +382,10 @@ body.front #main {
 	color: #FFFFFF;
 }
 
-
+#node-37 {
+	position: relative;
+	top: -10px;
+}
 
 
 /*
