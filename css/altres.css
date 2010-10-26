@@ -70,6 +70,7 @@ img {
 .two-sidebars #content {
 	margin-left: 250px;
 	width: 460px;
+	clear: left;
 }
 
 .region-sidebar-first {
