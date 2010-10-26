@@ -157,7 +157,6 @@ box-shadow: 0px 0px 5px #000;
 }
 
 #secondary-links a:hover, #secondary-links a:focus, #secondary-links a:active {
-	border-bottom: 1px dotted #00A5D9;
 	color: #00A5D9;
 }
 
