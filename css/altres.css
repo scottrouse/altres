@@ -63,7 +63,7 @@ img {
 }
 
 #main p {
-	line-height: 1.4em;
+	line-height: 1.5em;
 	font-size: 13px;
 }
 
@@ -654,11 +654,11 @@ body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links
 #main h1 {
 	color: #000000;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 55px;
 }
 
 #main h1.title {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	margin-left: -225px;
 	float: left;
 	border-bottom: 1px solid #000000;
@@ -666,7 +666,7 @@ body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links
 }
 
 #main h2 {
-	font-weight: normal;
+	font-weight: lighter;
 }
 
 #main a {
