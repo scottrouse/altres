@@ -54,7 +54,7 @@ body {
 }
 
 body.not-front #splash {
-	height: 480px;
+	height: 380px;
 }
 
 img {
@@ -231,7 +231,7 @@ body.front #feature #feature-homepage {
 
 body.not-front #staffing {
 	height: 111px;
-	top: 6px;
+	top: -102px;
 }
 
 #primary-links {
