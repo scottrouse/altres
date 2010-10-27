@@ -89,7 +89,6 @@ page.not-front #main p, page.not-front #main ul li, page.not-front #main table t
 .region-sidebar-second {
 	width: 250px;
 	margin-left: 668px;
-	padding-top: 50px;
 }
 
 
@@ -832,6 +831,7 @@ blockquote.align-left {
 #main .block-menu_block ul li {
 	margin: 0;
 	font-size: 100%;
+	line-height: 1.5em;
 }
 
 #main .block-menu_block .menu a {
@@ -857,6 +857,10 @@ blockquote.align-left {
 	margin-top: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.region-sidebar-second .region-count-1 {
+	margin-top: 0;
 }
 
 #main .sidebar h2.title {
@@ -923,3 +927,20 @@ blockquote.align-left {
 	font-weight: bold;
 }
 
+
+
+
+/* VIDEO */
+
+.emvideo-thumbnail-replacement span {
+	display: none;
+}
+
+#emvideo-youtube-flash-wrapper-1 {
+	text-align: center;
+}
+
+.field-field-video-caption {
+	text-align: center;
+	font-size: 0.9em;
+}
