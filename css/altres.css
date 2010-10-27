@@ -133,6 +133,10 @@ box-shadow: 0px 0px 5px #000;
 	top: 55px;
 }
 
+body.not-front #logo-box {
+	top: 45px;
+}
+
 #logo {
 	background: url(../images/logos/altres-logo.png);
 	background-repeat: no-repeat;
@@ -559,7 +563,7 @@ body.section-medical #main {
 
 body.section-medical #logo {
 	background: url(../images/logos/altres-medical-logo.png);
-	height: 32px;
+	height: 33px;
 	width: 147px;
 }
 
