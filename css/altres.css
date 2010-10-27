@@ -65,7 +65,7 @@ img {
 	margin: 3px;
 }
 
-#main p {
+#main p, #main ul li, #main table td {
 	line-height: 1.5em;
 	font-size: 13px;
 }
@@ -760,17 +760,22 @@ img.align-left {
 	float: left;
 }
 
+#page ul li {
+	margin-top: 5px;
+}
 
 
 /* ZEBRA-STRIPING AND TWO-COLUMN LISTS/TABLES */
 
-ul.zebra li {
+#page ul.zebra li {
 	list-style-image: url(../images/nav/sidebar-menu-up.png);
 	padding: 2px 0px 2px 15px;
 	list-style-position: inside;
+	margin-top: 0px;
+	line-height: normal;
 }
 
-ul.zebra li.even {
+#page ul.zebra li.even {
 	background-color: #E0E7F6;
 }
 
@@ -849,6 +854,11 @@ blockquote.align-left {
 	margin-top: 60px;
 }
 
+#main .block-menu_block ul li {
+	margin: 0;
+	font-size: 100%;
+}
+
 #main .block-menu_block .menu a {
 	color: #000000;
 }
@@ -885,6 +895,30 @@ blockquote.align-left {
 	margin-top: 20px;
 }
 
+#main #content .right-col {
+	position: absolute;
+	left: 755px;
+	width: 200px;
+	border-top: 1px solid #000;
+	font-size: 65%;
+}
+
+#main #content .left-col {
+	position: absolute;
+	width: 210px;
+	border-top: 1px solid #000;
+	left: 20px;
+	font-size: 65%;
+}
+
+#main #content .no-border {
+	border-top: none;
+}
+
+#main #content .left-col ul li, #main #content .left-col p, #main #content .right-col ul li, #main #content .right-col p {
+	font-size: 10px;
+	line-height: normal;
+}
 
 /* HEADERS */
 
