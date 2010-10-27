@@ -433,8 +433,12 @@ body.section-industrial .header-box {
 	background-color: #000000;
 }
 
-body.section-industrial #main h2 {
+body.section-industrial #main h2, body.section-industrial #main blockquote {
 	color: #0067B1;
+}
+
+body.section-industrial blockquote {
+	background-image: url(../images/lquote-industrial.png);
 }
 
 body.section-industrial #staffing {
@@ -475,8 +479,12 @@ body.section-office .header-box {
 	background-color: #7D6A55;
 }
 
-body.section-office #main h2 {
+body.section-office #main h2, body.section-office #main blockquote {
 	color: #6B2772;
+}
+
+body.section-office blockquote {
+	background-image: url(../images/lquote-office.png);
 }
 
 body.section-office #staffing {
@@ -517,8 +525,12 @@ body.section-technical .header-box {
 	background-color: #404041;
 }
 
-body.section-technical #main h2 {
+body.section-technical #main h2, body.section-technical #main blockquote {
 	color: #ED1C2E;
+}
+
+body.section-technical blockquote {
+	background-image: url(../images/lquote-technical.png);
 }
 
 body.section-technical #staffing {
@@ -559,8 +571,12 @@ body.section-medical .header-box {
 	background-color: #00649C;
 }
 
-body.section-medical #main h2 {
+body.section-medical #main h2, body.section-medical #main blockquote {
 	color: #0067B1;
+}
+
+body.section-medical blockquote {
+	background-image: url(../images/lquote-medical.png);
 }
 
 body.section-medical #staffing {
@@ -791,6 +807,32 @@ table.list td {
 
 table.zebra td.even {
 	background-color: #E0E7F6;
+}
+
+
+
+/* BLOCKQUOTE/PULLQUOTE */
+/* Note: additional blockquote styles found in section-specific areas */
+
+blockquote {
+	font-style: italic;
+	font-size: 110%;
+	background-image: url(../images/lquote.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 5px;
+}
+
+blockquote.align-right {
+	width: 50%;
+	float: right;
+	margin: 2px 2px 2px 5px;
+}
+
+blockquote.align-left {
+	width: 50%;
+	float: left;
+	margin: 2px 5px 2px 2px;
 }
 
 
