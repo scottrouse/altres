@@ -612,51 +612,14 @@ body.section-about-us, body.section-successes, body.section-insights {
 	background-color: #D6D7D8;
 }
 
-
-/* INSIGHTS */
-
-body.section-insights #staffing {
-	background-image: url(../images/staffing/insights-bg.png);
-}
-
-body.section-insights #primary-links a:hover, body.section-insights #primary-links a:focus, body.section-insights #primary-links a:active, body.section-insights #primary-links a.active {
-	background-image: url(../images/staffing/insights-hover-bg.png);
-}
-
-
-
-/* SUCCESSES */
-
-body.section-successes #staffing {
+body.section-successes #staffing, body.section-insights #staffing, body.section-about-us #staffing, body.section-contact-us #staffing {
 	background-image: url(../images/staffing/successes-bg.png);
 }
 
-body.section-successes #primary-links a:hover, body.section-successes #primary-links a:focus, body.section-successes #primary-links a:active, body.section-successes #primary-links a.active {
+body.section-successes #primary-links a:hover, body.section-successes #primary-links a:focus, body.section-successes #primary-links a:active, body.section-successes #primary-links a.active, body.section-insights #primary-links a:hover, body.section-insights #primary-links a:focus, body.section-insights #primary-links a:active, body.section-insights #primary-links a.active, body.section-about-us #primary-links a:hover, body.section-about-us #primary-links a:focus, body.section-about-us #primary-links a:active, body.section-about-us #primary-links a.active, body.section-contact-us #primary-links a:hover, body.section-contact-us #primary-links a:focus, body.section-contact-us #primary-links a:active, body.section-contact-us #primary-links a.active {
 	background-image: url(../images/staffing/successes-hover-bg.png);
 }
 
-
-/* ABOUT US */
-
-body.section-about-us #staffing {
-	background-image: url(../images/staffing/about-bg.png);
-}
-
-body.section-about-us #primary-links a:hover, body.section-about-us #primary-links a:focus, body.section-about-us #primary-links a:active, body.section-about-us #primary-links a.active {
-	background-image: url(../images/staffing/about-hover-bg.png);
-}
-
-
-
-/* CONTACT US */
-
-body.page-contact-us #staffing {
-	background-image: url(../images/staffing/contact-bg.png);
-}
-
-body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links a:focus, body.page-contact-us #primary-links a:active, body.page-contact-us #primary-links a.active {
-	background-image: url(../images/staffing/contact-hover-bg.png);
-}
 
 
 /*
