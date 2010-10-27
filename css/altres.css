@@ -12,7 +12,10 @@
  */
  /* --------------------------------  */
  
-
+.comment {
+	background-color: yellow;
+	padding: 5px;
+}
 
 /* --------------------------------  */
 /* End DELETE */
@@ -739,6 +742,16 @@ img.align-right {
 
 img.align-left {
 	float: left;
+}
+
+ul.zebra li {
+	list-style-image: url(../images/nav/sidebar-menu-up.png);
+	padding: 2px 0px 2px 15px;
+	list-style-position: inside;
+}
+
+ul.zebra li.even {
+	background-color: #E0E7F6;
 }
 
 /*
