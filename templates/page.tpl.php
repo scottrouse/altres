@@ -157,7 +157,7 @@
 
         <?php print $breadcrumb; ?>
         <?php if ($title): ?>
-          <h2 id="page-identifier" class="title"><?php print $title; ?></h1>
+          <h2 id="page-identifier" class="title"><?php print $title; ?></h2>
           <div class="title">
           	<img src="/sites/all/themes/altres/images/line.png" />
           </div>
