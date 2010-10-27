@@ -678,6 +678,7 @@ body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links
 	color: #000000;
 	font-weight: bold;
 	font-size: 55px;
+	margin: 0;
 }
 
 #main h2#page-identifier {
@@ -697,7 +698,8 @@ div.title {
 }
 
 #main h2 {
-	font-weight: lighter;
+	font-weight: 100;
+	margin-top: 0;
 }
 
 #main a {
