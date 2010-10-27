@@ -65,7 +65,7 @@ img {
 	margin: 3px;
 }
 
-#main p, #main ul li, #main table td {
+page.not-front #main p, page.not-front #main ul li, page.not-front #main table td {
 	line-height: 1.5em;
 	font-size: 13px;
 }
