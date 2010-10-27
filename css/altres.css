@@ -682,11 +682,11 @@ body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links
 
 #main h2#page-identifier {
 	color: #000000;
-	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin-left: -225px;
 	float: left;
 	padding-bottom: 5px;
+	font-weight: 700;
 }
 
 div.title {
@@ -859,6 +859,7 @@ blockquote.align-left {
 #main .block-menu_block {
 	margin-top: 60px;
 	font-family: "museo-sans-1","museo-sans-2",sans-serif;
+	font-weight: 500;
 }
 
 #main .block-menu_block ul li {
