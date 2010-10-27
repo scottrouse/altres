@@ -680,14 +680,16 @@ body.page-contact-us #primary-links a:hover, body.page-contact-us #primary-links
 	font-size: 55px;
 }
 
-#main h1.title {
+#main h2#page-identifier {
+	color: #000000;
+	font-weight: bold;
 	font-size: 1.2em;
 	margin-left: -225px;
 	float: left;
 	padding-bottom: 5px;
 }
 
-hr.title {
+div.title {
 	float: left;
 	margin-left: -225px;
 	margin-top: 30px;

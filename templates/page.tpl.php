@@ -157,8 +157,10 @@
 
         <?php print $breadcrumb; ?>
         <?php if ($title): ?>
-          <h1 class="title"><?php print $title; ?></h1>
-          <hr class="title" />
+          <h2 id="page-identifier" class="title"><?php print $title; ?></h1>
+          <div class="title">
+          	<img src="/sites/all/themes/altres/images/line.png" />
+          </div>
         <?php endif; ?>
         <?php print $messages; ?>
         <?php if ($tabs): ?>
