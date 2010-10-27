@@ -433,7 +433,7 @@ body.section-industrial .header-box {
 	background-color: #000000;
 }
 
-body.section-industrial #main h2, body.section-industrial #main blockquote {
+body.section-industrial #main h2, body.section-industrial #main blockquote, body.section-industrial #main #content .left-col h3 strong, body.section-industrial #main #content .right-col h3 strong {
 	color: #0067B1;
 }
 
@@ -479,7 +479,7 @@ body.section-office .header-box {
 	background-color: #7D6A55;
 }
 
-body.section-office #main h2, body.section-office #main blockquote {
+body.section-office #main h2, body.section-office #main blockquote, body.section-office #main #content .left-col h3 strong, body.section-office #main #content .right-col h3 strong {
 	color: #6B2772;
 }
 
@@ -525,7 +525,7 @@ body.section-technical .header-box {
 	background-color: #404041;
 }
 
-body.section-technical #main h2, body.section-technical #main blockquote {
+body.section-technical #main h2, body.section-technical #main blockquote, body.section-technical #main #content .left-col h3 strong, body.section-technical #main #content .right-col h3 strong {
 	color: #ED1C2E;
 }
 
@@ -571,7 +571,7 @@ body.section-medical .header-box {
 	background-color: #00649C;
 }
 
-body.section-medical #main h2, body.section-medical #main blockquote {
+body.section-medical #main h2, body.section-medical #main blockquote, body.section-medical #main #content .left-col h3 strong, body.section-medical #main #content .right-col h3 strong {
 	color: #0067B1;
 }
 
@@ -919,6 +919,20 @@ blockquote.align-left {
 	font-size: 10px;
 	line-height: normal;
 }
+
+#main #content .left-col ul.zebra li, #main #content .right-col ul.zebra li {
+	font-size: 13px;
+}
+
+#main #content .left-col h3, #main #content .right-col h3 {
+	font-weight: normal;
+}
+
+#main #content .left-col h4, #main #content .right-col h4 {
+	color: #000;
+}
+
+
 
 /* HEADERS */
 
