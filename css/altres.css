@@ -744,6 +744,10 @@ img.align-left {
 	float: left;
 }
 
+
+
+/* ZEBRA-STRIPING AND TWO-COLUMN LISTS/TABLES */
+
 ul.zebra li {
 	list-style-image: url(../images/nav/sidebar-menu-up.png);
 	padding: 2px 0px 2px 15px;
@@ -753,6 +757,42 @@ ul.zebra li {
 ul.zebra li.even {
 	background-color: #E0E7F6;
 }
+
+.two-column {
+	-moz-column-count: 2;
+	-moz-column-gap: 5px;
+	-webkit-column-count:2;
+	-webkit-column-gap: 5px;
+	column-count: 2;
+	column-gap: 5px;
+}
+
+ul.two-column {
+	width: 350px;
+}
+
+td {
+	font-family: Georgia, serif;
+}
+
+table.list {
+	border-spacing: 5px 0px;
+	border-collapse: separate;
+	margin: 0 0 0 28px;
+}
+
+table.list td {
+	padding-right: 55px;
+	background-image: url(../images/nav/sidebar-menu-up.png);
+	background-repeat: no-repeat;
+	background-position: 12px center;
+	padding-left: 26px;
+}
+
+table.zebra td.even {
+	background-color: #E0E7F6;
+}
+
 
 /*
  * Sidebar Styles
