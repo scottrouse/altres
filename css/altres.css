@@ -924,6 +924,9 @@ blockquote.align-left {
 	color: #000;
 }
 
+#main .right-col h2, #main .left-col h2 {
+	margin-top: 10px;
+}
 
 
 /* HEADERS */
