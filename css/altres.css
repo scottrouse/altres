@@ -615,12 +615,16 @@ body.section-about-us, body.section-successes, body.section-insights {
 	background-color: #D6D7D8;
 }
 
-body.section-successes #staffing, body.section-insights #staffing, body.section-about-us #staffing, body.section-contact-us #staffing {
+body.section-successes #staffing, body.section-insights #staffing, body.section-about-us #staffing, body.section-contact-us #staffing, body.section-sitemap #staffing, body.section-terms-of-service #staffing, body.section-privacy-policy #staffing {
 	background-image: url(../images/staffing/successes-bg.png);
 }
 
-body.section-successes #primary-links a:hover, body.section-successes #primary-links a:focus, body.section-successes #primary-links a:active, body.section-successes #primary-links a.active, body.section-insights #primary-links a:hover, body.section-insights #primary-links a:focus, body.section-insights #primary-links a:active, body.section-insights #primary-links a.active, body.section-about-us #primary-links a:hover, body.section-about-us #primary-links a:focus, body.section-about-us #primary-links a:active, body.section-about-us #primary-links a.active, body.section-contact-us #primary-links a:hover, body.section-contact-us #primary-links a:focus, body.section-contact-us #primary-links a:active, body.section-contact-us #primary-links a.active {
+body.section-successes #primary-links a:hover, body.section-successes #primary-links a:focus, body.section-successes #primary-links a:active, body.section-successes #primary-links a.active, body.section-insights #primary-links a:hover, body.section-insights #primary-links a:focus, body.section-insights #primary-links a:active, body.section-insights #primary-links a.active, body.section-about-us #primary-links a:hover, body.section-about-us #primary-links a:focus, body.section-about-us #primary-links a:active, body.section-about-us #primary-links a.active, body.section-contact-us #primary-links a:hover, body.section-contact-us #primary-links a:focus, body.section-contact-us #primary-links a:active, body.section-contact-us #primary-links a.active, body.section-sitemap #primary-links a:hover, body.section-sitemap #primary-links a:focus, body.section-sitemap #primary-links a:active, body.section-sitemap #primary-links a.active, body.section-terms-of-service #primary-links a:hover, body.section-terms-of-service #primary-links a:focus, body.section-terms-of-service #primary-links a:active, body.section-terms-of-service #primary-links a.active, body.section-privacy-policy #primary-links a:hover, body.section-privacy-policy #primary-links a:focus, body.section-privacy-policy #primary-links a:active, body.section-privacy-policy #primary-links a.active {
 	background-image: url(../images/staffing/successes-hover-bg.png);
+}
+
+body.section-successes #splash, body.section-insights #splash, body.section-about-us #splash, body.section-contact-us #splash, body.section-sitemap #splash, body.section-terms-of-service #splash, body.section-privacy-policy #splash {
+	background-image: url(../images/splash/background/interior-successes.jpg);
 }
 
 
