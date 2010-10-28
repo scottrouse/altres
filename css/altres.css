@@ -448,6 +448,10 @@ body.section-industrial #staffing {
 	background-image: url(../images/staffing/industrial-bg.png);
 }
 
+body.section-industrial #primary-links a, body.section-industrial #primary-links a:link, body.section-industrial #primary-links a:visited {
+	color: #000000;
+}
+
 body.section-industrial #primary-links a:hover, body.section-industrial #primary-links a:focus, body.section-industrial #primary-links a:active, body.section-industrial #primary-links a.active {
 	background-image: url(../images/staffing/industrial-hover-bg.png);
 	background-position: 0px -11px;
