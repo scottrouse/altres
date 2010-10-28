@@ -947,7 +947,7 @@ blockquote.align-left {
 
 
 
-/* VIDEO */
+/* VIDEO SIDEBAR DISPLAY */
 
 .emvideo-thumbnail-replacement span {
 	display: none;
@@ -960,4 +960,44 @@ blockquote.align-left {
 .field-field-video-caption {
 	text-align: center;
 	font-size: 0.9em;
+}
+
+
+
+
+/* VIDEO SHOWCASE DISPLAY */
+
+.block-views .view-video-showcase {
+	width: 715px;
+	height: 350px;
+}
+
+.block-views .view-video-showcase .views_slideshow_main {
+	float: left;
+}
+
+.block-views .view-video-showcase .views-slideshow-controls-bottom {
+	width: 225px;
+	float: right;
+	position: relative;
+}
+
+.block-views .view-video-showcase .views-slideshow-controls-bottom .views_slideshow_thumbnailhover_div_breakout_teaser {
+	clear: both;
+	position: relative;
+}
+
+.block-views .view-video-showcase .views-slideshow-controls-bottom .views-field-field-video-embed {
+	float: left;
+}
+
+.block-views .view-video-showcase .views-slideshow-controls-bottom .views-content-field-video-embed img {
+	width: 100px;
+	height: 75px;
+}
+
+.block-views .view-video-showcase .views-slideshow-controls-bottom .views-field-title, .block-views .view-video-showcase .views-slideshow-controls-bottom .views-field-field-video-duration {
+	width: 110px;
+	font-size: 80%;
+	float: right;
 }
