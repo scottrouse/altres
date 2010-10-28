@@ -824,9 +824,13 @@ blockquote.align-left {
 /* NAVIGATION */
 
 #main .block-menu_block {
-	margin-top: 60px;
+	margin-top: 0px;
 	font-family: "museo-sans-1","museo-sans-2",sans-serif;
 	font-weight: 500;
+}
+
+#main .block-menu_block ul.menu {
+	margin-top: 0;
 }
 
 #main .block-menu_block ul li {
@@ -840,7 +844,8 @@ blockquote.align-left {
 }
 
 #main .block-menu_block .menu a.active {
-	font-weight: bold;
+	font-weight: 700;
+	font-size: 110%;
 }
 
 #main .block-menu_block .menu li.leaf {
