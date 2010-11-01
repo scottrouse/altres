@@ -10,7 +10,24 @@
 
 
 /*
- * Description
+ * Center body text in red bar on homepage.
  */
 
+#node-37 {
+	top: -24px;
+}
 
+
+
+
+/*
+ * Move #staffing nav bar up over image.
+ */
+
+#staffing {
+	top: 0px;
+}
+
+body.not-front #staffing {
+	top: -185px;
+}
