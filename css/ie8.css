@@ -1,0 +1,18 @@
+/* $Id: ie.css,v 1.2.2.1 2010/01/20 20:11:52 johnalbin Exp $ */
+
+/**
+ * @file
+ * CSS targeted specifically for Internet Explorer 8 for Windows.
+ *
+ * Any CSS in this file will apply to version 8 of IE.
+ *
+ */
+
+
+/*
+ * Move #page up to eliminate gap below #staffing and #page content.
+ */
+
+#page {
+	top: -102px;
+}
