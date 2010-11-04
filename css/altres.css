@@ -82,6 +82,11 @@ page.not-front #main p, page.not-front #main ul li, page.not-front #main table t
 	clear: left;
 }
 
+#content p {
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
 .region-sidebar-first {
 	width: 250px;
 }
