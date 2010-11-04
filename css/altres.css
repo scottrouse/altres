@@ -399,6 +399,7 @@ body.front #page {
 	background: url(../images/bio-bg.jpg);
 	background-repeat: repeat-x;
 	color: #FFFFFF;
+	height: 166px;
 }
 
 body.front #main {
