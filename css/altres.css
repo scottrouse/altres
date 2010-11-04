@@ -137,10 +137,6 @@ box-shadow: 0px 0px 5px #000;
 	bottom: 14.6px;
 }
 
-body.section-industrial #logo-box, body.section-office #logo-box, body.section-technical #logo-box, body.section-medical #logo-box {
-	top: 45px;
-}
-
 #logo {
 	background: url(../images/logos/altres-logo.png);
 	background-repeat: no-repeat;
