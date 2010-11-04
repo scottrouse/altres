@@ -130,7 +130,7 @@
 					</div>	<!-- /#secondary-links .nav -->				
 				</div>	<!-- /#header-first -->
 				<div id="header-last" class="header-box">
-					<div id="quick-contact"><strong>808.591.4940</strong></div>
+					<div id="quick-contact">808.591.4940</div>
 					<div id="tertiary-links" class="nav">
 						<?php print theme('links', menu_navigation_links('menu-tertiary-links')); ?>
 					</div>	<!-- /#tertiary-links .nav -->				
