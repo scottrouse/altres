@@ -31,3 +31,15 @@
 body.not-front #staffing {
 	top: -185px;
 }
+
+
+
+
+/*
+ * Move #footer up using fake negative top position
+ */
+
+#footer {
+	position: relative;
+	top: -100px;
+}
