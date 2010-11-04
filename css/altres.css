@@ -861,6 +861,7 @@ blockquote.align-left {
 
 #main .block-menu_block ul.menu {
 	margin-top: 0;
+	padding-left: 2.5em;
 }
 
 #main .block-menu_block ul li {
