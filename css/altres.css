@@ -882,9 +882,6 @@ blockquote.align-left {
 	list-style-image: url(../images/nav/sidebar-menu-up.png);
 }
 
-#main .block-menu_block .menu li.active {
-	list-style-image: url(../images/nav/sidebar-menu-over.png);
-}
 
 
 /* INFOGRAPHICS AND STANDARD BLOCKS */
