@@ -13,17 +13,6 @@
  * Move #page up to eliminate gap below #staffing and #page content.
  */
 
-#page {
-	top: -102px;
-}
-
-
-
-/*
- * Move #footer up using fake negative top position
- */
-
-#footer {
-	position: relative;
-	top: -100px;
+body.not-front #page {
+	top: -101px;
 }

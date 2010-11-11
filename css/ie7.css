@@ -41,5 +41,16 @@ body.not-front #staffing {
 
 #footer {
 	position: relative;
-	top: -100px;
+}
+
+
+
+
+
+/*
+ * Move #page back down
+ */
+
+#page {
+	top: 0px;
 }
