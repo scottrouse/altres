@@ -337,7 +337,8 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
  */
 
 #footer {
-	font-size: 10px;
+	font-size: 15px;	/* Per Jay's request in email on 11.11.10 */
+	font-weight: 500;	/* Per Jay's request in email on 11.11.10 */
 	line-height: 17px;
 	color: #FFFFFF;
 	margin: 10px 26px 0 30px;
