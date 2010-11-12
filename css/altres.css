@@ -283,7 +283,7 @@ body.not-front #primary-links {
 }
 
 #primary-links a, #primary-links a:link, #primary-links a:visited {
-	font-size: 16px;
+	font-size: 15px;
 	position: relative;
 	top: 0;
 	z-index: 7;
@@ -294,7 +294,7 @@ body.not-front #primary-links {
 	text-transform: uppercase;
 	padding-top: 8px;
 	font-family: "museo-sans-1","museo-sans-2",sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-front #primary-links a:visited {
