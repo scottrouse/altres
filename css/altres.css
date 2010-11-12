@@ -937,8 +937,8 @@ blockquote.align-left {
 }
 
 #main #content .left-col ul li, #main #content .left-col p, #main #content .right-col ul li, #main #content .right-col p {
-	font-size: 10px;
-	line-height: normal;
+	font-size: 11px;
+	line-height: 1.6em;
 }
 
 #main #content .left-col ul.zebra li, #main #content .right-col ul.zebra li {
