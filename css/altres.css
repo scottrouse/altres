@@ -70,6 +70,13 @@ page.not-front #main p, page.not-front #main ul li, page.not-front #main table t
 	font-size: 13px;
 }
 
+body.section-user #main {
+	background-color: #FFF;
+	padding: 10px;
+}
+
+
+
 /*
  * Page Layout
  * These styles override those in layout-fixed.css
