@@ -75,6 +75,11 @@ body.section-user #main {
 	padding: 10px;
 }
 
+a {
+	outline: none;
+}
+
+
 
 
 /*
