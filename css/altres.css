@@ -320,6 +320,8 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 	font-weight: 300;
 	text-transform: none;
 	display: none;	/* Hidden by default. Span text is shown on hover and click via splash.js */
+	width: 170px;
+	margin-top: -10px;
 }
 
 #primary-links a:hover, #primary-links a:focus, #primary-links a:active, #primary-links a.active {
