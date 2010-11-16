@@ -327,7 +327,7 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 }
 
 #primary-links a:hover span, #primary-links a:focus span, #primary-links a:active span, #primary-links a.active span {
-	display: block;
+	display: block !important;
 }
 
 #primary-links ul.links {
