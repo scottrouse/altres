@@ -340,6 +340,7 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 	top: 0px;
 	padding: 0;
 	float: left;
+	margin-left: -1px;
 }
 
 
