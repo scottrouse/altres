@@ -492,7 +492,7 @@ body.section-industrial #primary-links a, body.section-industrial #primary-links
 	color: #000000;
 }
 
-body.section-industrial #primary-links a:hover, body.section-industrial #primary-links a:focus, body.section-industrial #primary-links a:active, body.section-industrial #primary-links a.active {
+body.section-industrial #primary-links a:hover, body.section-industrial #primary-links a:focus, body.section-industrial #primary-links a:active, body.section-industrial #primary-links a.active, body.section-industrial #primary-links li.active-trail a {
 	background-image: url(../images/staffing/industrial-hover-bg.png);
 	background-position: 0px -11px;
 }
@@ -538,7 +538,7 @@ body.section-office #staffing {
 	background-image: url(../images/staffing/office-bg.png);
 }
 
-body.section-office #primary-links a:hover, body.section-office #primary-links a:focus, body.section-office #primary-links a:active, body.section-office #primary-links a.active {
+body.section-office #primary-links a:hover, body.section-office #primary-links a:focus, body.section-office #primary-links a:active, body.section-office #primary-links a.active, body.section-office #primary-links li.active-trail a {
 	background-image: url(../images/staffing/office-hover-bg.png);
 	background-position: 0px -6px;
 }
@@ -584,7 +584,7 @@ body.section-technical #staffing {
 	background-image: url(../images/staffing/technical-bg.png);
 }
 
-body.section-technical #primary-links a:hover, body.section-technical #primary-links a:focus, body.section-technical #primary-links a:active, body.section-technical #primary-links a.active {
+body.section-technical #primary-links a:hover, body.section-technical #primary-links a:focus, body.section-technical #primary-links a:active, body.section-technical #primary-links a.active, body.section-technical #primary-links li.active-trail a {
 	background-image: url(../images/staffing/technical-hover-bg.png);
 	background-position: 0px -6px;
 }
@@ -630,7 +630,7 @@ body.section-medical #staffing {
 	background-image: url(../images/staffing/medical-bg.png);
 }
 
-body.section-medical #primary-links a:hover, body.section-medical #primary-links a:focus, body.section-medical #primary-links a:active, body.section-medical #primary-links a.active {
+body.section-medical #primary-links a:hover, body.section-medical #primary-links a:focus, body.section-medical #primary-links a:active, body.section-medical #primary-links a.active, body.section-medical #primary-links li.active-trail a {
 	background-image: url(../images/staffing/medical-hover-bg.png);
 	background-position: 0px -6px;
 }
