@@ -344,6 +344,10 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 	float: left;
 }
 
+ul li p {
+	margin: 0;
+}
+
 
 /*
  * Footer Area
