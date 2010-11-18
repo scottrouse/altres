@@ -348,6 +348,10 @@ ul li p {
 	margin: 0;
 }
 
+h4 {
+	margin-bottom: -0.7em;
+}
+
 
 /*
  * Footer Area
@@ -906,6 +910,25 @@ blockquote.align-left {
 #main .block-menu_block .menu li.leaf {
 	list-style-image: url(../images/nav/sidebar-menu-up.png);
 }
+
+.whitepaper {
+	position: relative;
+}
+
+.sidebar .whitepaper h3 {
+	position: absolute;
+	right: 0px;
+	top: 35px;
+	width: 100px;
+	margin: 0px;
+	font-size: 0.8em;
+}
+
+.whitepaper .button {
+	position: absolute;
+	top: 100px;
+}
+
 
 
 
