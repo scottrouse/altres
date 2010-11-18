@@ -881,10 +881,9 @@ blockquote.align-left {
 /* NAVIGATION */
 
 #main .block-menu_block {
-	margin-top: 0px;
+	margin-top: 60px;
 	font-family: "museo-sans-1","museo-sans-2",sans-serif;
 	font-weight: 500;
-	margin-top: 5px;
 }
 
 #main .block-menu_block ul.menu {
