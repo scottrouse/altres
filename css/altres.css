@@ -927,8 +927,8 @@ blockquote.align-left {
 .sidebar .whitepaper h3 {
 	position: absolute;
 	right: 0px;
-	top: 35px;
-	width: 100px;
+	top: 5px;
+	width: 75px;
 	margin: 0px;
 	font-size: 0.8em;
 }
@@ -946,7 +946,7 @@ blockquote.align-left {
 .sidebar .block {
 	margin-top: 20px;
 	padding-left: 0px;
-	padding-right: 10px;
+	padding-right: 0px;
 }
 
 .region-sidebar-second .region-count-1 {
