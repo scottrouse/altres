@@ -44,6 +44,7 @@ body {
 #page {
 	position: relative;
 	overflow: hidden;
+	top: 1px;
 	/* z-index: -3; */
 }
 
@@ -353,8 +354,10 @@ ul li p {
 	margin: 0;
 }
 
-h4 {
+.content h3, .content h4 {
 	margin-bottom: -0.7em;
+	font-family:"museo-sans-1","museo-sans-2",sans-serif;
+	font-weight: 500;
 }
 
 
