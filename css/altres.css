@@ -90,7 +90,7 @@ a {
 
 .two-sidebars #content {
 	margin-left: 250px;
-	width: 460px;
+	width: 490px;
 	clear: left;
 }
 
@@ -100,12 +100,15 @@ a {
 }
 
 .region-sidebar-first {
-	width: 250px;
+	width: 200px;
+	margin-left: 23px;
+	margin-right: 22px;
 }
 
 .region-sidebar-second {
-	width: 250px;
-	margin-left: 668px;
+	width: 245px;
+	border-left: solid 1px #f00;
+	margin-left: 490px;
 }
 
 
@@ -434,6 +437,7 @@ body.front #page {
 
 body.front #main {
 	color: #FFFFFF;
+	background-image: none;
 }
 
 #node-37 {
@@ -691,6 +695,8 @@ body.section-successes #splash, body.section-insights #splash, body.section-abou
 	padding-top: 20px;
 	padding-bottom: 40px;
 	position: relative;
+	background-image: url(../images/main-bg.jpg);
+	background-repeat: repeat-x;
 }
 
 #main h1 {
@@ -706,8 +712,9 @@ body.section-successes #splash, body.section-insights #splash, body.section-abou
 	color: #000000;
 	font-size: 1.4em;
 	margin-left: -225px;
+	margin-bottom: 16px;
 	float: left;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	font-weight: 700;
 }
 
@@ -715,6 +722,7 @@ div.title {
 	float: left;
 	margin-left: -225px;
 	margin-top: 30px;
+	margin-bottom: 16px;
 	width: 50px;
 }
 
@@ -887,8 +895,8 @@ blockquote.align-left {
 }
 
 #main .block-menu_block ul.menu {
-	margin-top: 0;
-	padding-left: 2.5em;
+	margin-top: -6px;
+	padding-left: 1.0em;
 }
 
 #main .block-menu_block ul li {
@@ -935,7 +943,7 @@ blockquote.align-left {
 
 .sidebar .block {
 	margin-top: 20px;
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-right: 10px;
 }
 
