@@ -271,11 +271,11 @@ body.front #feature #feature-homepage {
  
 #staffing {
 	position: relative;
-	height: 103px;
+	height: 102px;
 	background-image: url(../images/staffing/staffing-bg.png);
 	background-repeat: repeat-x;
 	z-index: 3;
-	top: 72px;
+	top: 73px;
 	padding-top: 18px;
 }
 
