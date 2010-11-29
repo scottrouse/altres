@@ -322,9 +322,10 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 	font-size: 11px;
 	font-weight: 300;
 	text-transform: none;
-	display: none;	/* Hidden by default. Span text is shown on hover and click via splash.js */
+	visibility: hidden;	/* Hidden by default. Span text is shown on hover and click via splash.js */
 	width: 170px;
 	margin-top: -10px;
+	display: block !important;
 }
 
 #primary-links a:hover, #primary-links a:focus, #primary-links a:active, #primary-links a.active {
@@ -332,7 +333,7 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 }
 
 #primary-links a:hover span, #primary-links a:focus span, #primary-links a:active span, #primary-links a.active span {
-	display: block !important;
+	visibility: visible;
 }
 
 #primary-links ul.links {
@@ -345,6 +346,7 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 	top: 0px;
 	padding: 0;
 	float: left;
+	margin-left: -1px;    /* Prevents gap between rollover backgrounds on home page */
 }
 
 ul li p {
