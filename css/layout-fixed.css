@@ -93,7 +93,7 @@ body {
   width: 490px;
   margin-left: 250px; /* LTR */ /* The width of .region-sidebar-first */
   margin-right: -740px; /* LTR */ /* Negative value of #content's width + left margin. */
-  background-color: aqua;
+  background-color: aqua;	/* Temporary testing only - REMOVE THIS ATTRIBUTE */
 }
 
 #content .section {
@@ -144,7 +144,7 @@ body {
   margin-left: 0; /* LTR */
   margin-right: -250px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
-  background-color: lime;
+  background-color: lime;	/* Temporary testing only - REMOVE THIS ATTRIBUTE */
 }
 
 .region-sidebar-first .section {
@@ -161,7 +161,7 @@ body {
   margin-left: 740px; /* LTR */ /* Width of content + sidebar-first. */
   margin-right: -985px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
-  background-color: lime;
+  background-color: lime;	/* Temporary testing only - REMOVE THIS ATTRIBUTE */
 }
 
 .region-sidebar-second .section {
