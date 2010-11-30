@@ -918,11 +918,12 @@ blockquote.align-left {
 
 .whitepaper {
 	position: relative;
+	margin-top: 20px;
 }
 
 .sidebar .whitepaper h3 {
 	position: absolute;
-	right: 0px;
+	left: 106px;
 	top: 5px;
 	width: 75px;
 	margin: 0px;
@@ -932,9 +933,16 @@ blockquote.align-left {
 .whitepaper .button {
 	position: absolute;
 	top: 100px;
+	left: 102px;
 }
 
+.block .content {
+	margin-left: 30px;
+}
 
+.block-menu_block .content {
+	margin-left: 0;
+}
 
 
 /* INFOGRAPHICS AND STANDARD BLOCKS */
