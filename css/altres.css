@@ -679,7 +679,7 @@ body.section-successes #splash, body.section-insights #splash, body.section-abou
 }
 
 
-body.section-about-us h2 {
+body.section-about-us h2, body.section-payroll h2, body.section-training h2, body.section-neighbor-islands h2 {
 	color: #ED1C2E;
 }
 
