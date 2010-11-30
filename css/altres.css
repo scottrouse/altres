@@ -1091,3 +1091,7 @@ blockquote.align-left {
 	font-size: 80%;
 	float: right;
 }
+
+.field-field-video {
+	text-align: center;
+}
