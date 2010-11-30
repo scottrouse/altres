@@ -76,6 +76,9 @@ a {
 	outline: none;
 }
 
+ul, ol {
+	padding-left: 1em;
+}
 
 
 
