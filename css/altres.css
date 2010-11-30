@@ -62,10 +62,6 @@ body.not-front #splash {
 	height: 379px;
 }
 
-img {
-	margin: 3px;
-}
-
 page.not-front #main p, page.not-front #main ul li, page.not-front #main table td {
 	line-height: 1.5em;
 	font-size: 13px;
