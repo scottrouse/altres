@@ -97,6 +97,7 @@ ul, ol {
 #content p {
 	font-size: 12px;
 	line-height: 1.6em;
+	margin: 12px 0;
 }
 
 .region-sidebar-first {
@@ -356,9 +357,10 @@ ul li p {
 }
 
 .content h4 {
-	margin-bottom: -0.7em;
+	margin-bottom: -8px;
 	font-family:"museo-sans-1","museo-sans-2",sans-serif;
 	font-weight: 500;
+	margin-top: 40px;
 }
 
 
@@ -778,6 +780,7 @@ div.title {
 .hr-center {
 	border-top: 1px solid #000000;
 	clear: both;
+	margin: 24px 0 -16px 0;
 }
 
 .hr-left-center {
