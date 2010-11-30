@@ -719,7 +719,7 @@ body.section-successes #splash, body.section-insights #splash, body.section-abou
 div.title {
 	float: left;
 	margin-left: -225px;
-	margin-top: 30px;
+	margin-top: 26px;
 	margin-bottom: 16px;
 	width: 50px;
 }
@@ -887,7 +887,7 @@ blockquote.align-left {
 /* NAVIGATION */
 
 #main .block-menu_block {
-	margin-top: 60px;
+	margin-top: 58px;
 	font-family: "museo-sans-1","museo-sans-2",sans-serif;
 	font-weight: 500;
 }

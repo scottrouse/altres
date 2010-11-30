@@ -144,7 +144,6 @@ body {
   margin-left: 0; /* LTR */
   margin-right: -250px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
-  background-color: lime;	/* Temporary testing only - REMOVE THIS ATTRIBUTE */
 }
 
 .region-sidebar-first .section {
