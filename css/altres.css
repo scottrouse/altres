@@ -36,9 +36,9 @@ body {
 }
 
 .page-wrapper {
-	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 985px;
 }
 
 #page {
@@ -101,15 +101,9 @@ a {
 }
 
 .region-sidebar-first {
-	width: 200px;
-	margin-left: 23px;
-	margin-right: 22px;
 }
 
 .region-sidebar-second {
-	width: 245px;
-	border-left: solid 1px #f00;
-	margin-left: 490px;
 }
 
 

@@ -33,7 +33,7 @@ body {
    */
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: 985px;
 }
 
 #page {
@@ -90,9 +90,10 @@ body {
 }
 
 .two-sidebars #content {
-  width: 560px;
-  margin-left: 200px; /* LTR */ /* The width of .region-sidebar-first */
-  margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  width: 490px;
+  margin-left: 250px; /* LTR */ /* The width of .region-sidebar-first */
+  margin-right: -740px; /* LTR */ /* Negative value of #content's width + left margin. */
+  background-color: aqua;
 }
 
 #content .section {
@@ -139,10 +140,11 @@ body {
  */
 .region-sidebar-first {
   float: left; /* LTR */
-  width: 200px;
+  width: 250px;
   margin-left: 0; /* LTR */
-  margin-right: -200px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
+  margin-right: -250px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
+  background-color: lime;
 }
 
 .region-sidebar-first .section {
@@ -155,10 +157,11 @@ body {
  */
 .region-sidebar-second {
   float: left; /* LTR */
-  width: 200px;
-  margin-left: 760px; /* LTR */ /* Width of content + sidebar-first. */
-  margin-right: -960px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
+  width: 245px;
+  margin-left: 740px; /* LTR */ /* Width of content + sidebar-first. */
+  margin-right: -985px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
+  background-color: lime;
 }
 
 .region-sidebar-second .section {
