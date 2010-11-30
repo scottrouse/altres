@@ -940,7 +940,7 @@ blockquote.align-left {
 	margin-left: 30px;
 }
 
-.region-footer .block .content {
+.region-footer .block .content, .region-sidebar-second  .block .content {
 	margin-left: 0;
 }
 
