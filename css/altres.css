@@ -44,7 +44,6 @@ body {
 #page {
 	position: relative;
 	overflow: hidden;
-	top: 1px;
 	/* z-index: -3; */
 }
 
@@ -281,7 +280,7 @@ body.not-front #staffing {
 
 #primary-links {
 	position: relative;
-	width: 980px;
+	width: 985px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 103px;
@@ -298,7 +297,7 @@ body.not-front #primary-links {
 	top: 0;
 	z-index: 7;
 	display: block;
-	width: 213px;
+	width: 214px;
 	height: 103px;
 	padding-left: 32px;
 	text-transform: uppercase;
@@ -336,12 +335,18 @@ body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-
 	position: relative;
 }
 
+body.front #primary-links ul.links li {
+	margin-left: -1px;    /* Prevents gap between rollover backgrounds on home page */
+}
+
 #primary-links ul.links li {
 	position: relative;
 	top: 0px;
 	padding: 0;
 	float: left;
-	margin-left: -1px;    /* Prevents gap between rollover backgrounds on home page */
+}
+
+#primary-links ul.links li.first {
 }
 
 ul li p {
@@ -709,6 +714,10 @@ body.section-about-us h2, body.section-payroll h2, body.section-training h2, bod
 	position: relative;
 	background-image: url(../images/main-bg.jpg);
 	background-repeat: repeat-x;
+}
+
+body.front #main {
+	padding-top: 14px;
 }
 
 #main h1 {
