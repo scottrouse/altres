@@ -679,6 +679,10 @@ body.section-successes #splash, body.section-insights #splash, body.section-abou
 }
 
 
+body.section-about-us h2 {
+	color: #ED1C2E;
+}
+
 
 /*
  * Body Styles
