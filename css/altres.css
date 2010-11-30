@@ -940,6 +940,10 @@ blockquote.align-left {
 	margin-left: 30px;
 }
 
+.region-footer .block .content {
+	margin-left: 0;
+}
+
 .block-menu_block .content {
 	margin-left: 0;
 }
