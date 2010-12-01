@@ -753,6 +753,10 @@ div.title {
 	font-family: "museo-sans-1","museo-sans-2",sans-serif;
 }
 
+#main h3 {
+	color: #000;
+}
+
 #main a {
 	color: #ED1C2E;
 }
@@ -940,6 +944,10 @@ blockquote.align-left {
 	list-style-image: url(../images/nav/sidebar-menu-up.png);
 }
 
+#block-block-8 {
+	margin-top: 80px;
+}
+
 .whitepaper {
 	position: relative;
 	margin-top: 20px;
@@ -952,6 +960,7 @@ blockquote.align-left {
 	width: 75px;
 	margin: 0px;
 	font-size: 0.8em;
+	font-weight: 900;
 }
 
 .whitepaper .button {
