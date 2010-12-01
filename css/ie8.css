@@ -16,3 +16,7 @@
 body.not-front #page {
 	top: -102px;
 }
+
+#footer {
+	margin-top: -90px;
+}
