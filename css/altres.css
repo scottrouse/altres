@@ -710,7 +710,7 @@ body.section-about-us h2, body.section-payroll h2, body.section-training h2, bod
 	font-family: Georgia, serif;
 	color: #4D4D4F;
 	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	position: relative;
 	background-image: url(../images/main-bg.jpg);
 	background-repeat: repeat-x;
@@ -1049,7 +1049,6 @@ blockquote.align-left {
 }
 
 #main #content .left-col h3, #main #content .right-col h3 {
-	font-weight: normal;
 	font-family:"museo-sans-1","museo-sans-2",sans-serif;
 }
 
