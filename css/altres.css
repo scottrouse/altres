@@ -93,7 +93,7 @@ ul, ol {
 	clear: left;
 }
 
-#content p {
+#content p, #content ul {
 	font-size: 12px;
 	line-height: 1.6em;
 	margin: 12px 0;
@@ -1006,6 +1006,14 @@ blockquote.align-left {
 	width: 200px;
 	border-top: 1px solid #000;
 	font-size: 65%;
+	margin-top: 4px;
+}
+
+.right-col h4 {
+	margin-top: 0;
+}
+
+.left-col h4 {
 	margin-top: 4px;
 }
 
