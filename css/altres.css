@@ -534,8 +534,9 @@ body.section-industrial #main {
 
 body.section-industrial #logo {
 	background: url(../images/logos/altres-industrial-logo.png);
+	background-repeat: no-repeat;
 	height: 32px;
-	width: 147px;
+	width: 149px;
 }
 
 body.section-industrial {
@@ -597,8 +598,9 @@ body.section-office #main {
 
 body.section-office #logo {
 	background: url(../images/logos/altres-office-logo.png);
+	background-repeat: no-repeat;
 	height: 32px;
-	width: 147px;
+	width: 149px;
 }
 
 body.section-office {
@@ -643,8 +645,9 @@ body.section-technical #main {
 
 body.section-technical #logo {
 	background: url(../images/logos/altres-technical-logo.png);
+	background-repeat: no-repeat;
 	height: 32px;
-	width: 147px;
+	width: 149px;
 }
 
 body.section-technical {
@@ -702,8 +705,9 @@ body.section-medical #main {
 
 body.section-medical #logo {
 	background: url(../images/logos/altres-medical-logo.png);
+	background-repeat: no-repeat;
 	height: 33px;
-	width: 147px;
+	width: 149px;
 }
 
 body.section-medical {
