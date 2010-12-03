@@ -496,6 +496,20 @@ body.front #main {
 	margin-right: 10px;
 }
 
+body.front #footer {
+	color: #FFFFFF;
+}
+
+body.front #footer .menu a, body.front #footer .menu a:link, body.front #footer .menu a:visited {
+	color: #FFFFFF;
+}
+
+body.front #block-menu-menu-quaternary-links ul li a, body.front #block-menu-menu-quaternary-links ul li a:link, body.front #block-menu-menu-quaternary-links ul li a:visited {
+	border-right: 1px solid #FFFFFF;
+}
+
+
+
 
 /*
  * Not the Front Page
@@ -562,6 +576,19 @@ body.section-industrial #primary-links a:hover, body.section-industrial #primary
 body.section-industrial #splash {
 	background-image: url(../images/splash/background/interior-industrial.jpg);
 }
+
+body.section-industrial #footer {
+	color: #FFFFFF;
+}
+
+body.section-industrial #footer .menu a, body.section-industrial #footer .menu a:link, body.section-industrial #footer .menu a:visited {
+	color: #000000;
+}
+
+body.section-industrial #block-menu-menu-quaternary-links ul li a, body.section-industrial #block-menu-menu-quaternary-links ul li a:link, body.section-industrial #block-menu-menu-quaternary-links ul li a:visited {
+	border-right: 1px solid #000000;
+}
+
 
 
 /* OFFICE */
@@ -655,6 +682,19 @@ body.section-technical #splash {
 	background-image: url(../images/splash/background/interior-technical.jpg);
 }
 
+body.section-technical #footer {
+	color: #FFFFFF;
+}
+
+body.section-technical #footer .menu a, body.section-technical #footer .menu a:link, body.section-technical #footer .menu a:visited {
+	color: #000000;
+}
+
+body.section-technical #block-menu-menu-quaternary-links ul li a, body.section-technical #block-menu-menu-quaternary-links ul li a:link, body.section-technical #block-menu-menu-quaternary-links ul li a:visited {
+	border-right: 1px solid #000000;
+}
+
+
 
 /* MEDICAL */
 
@@ -732,6 +772,18 @@ body.section-successes #splash, body.section-insights #splash, body.section-abou
 
 body.section-about-us h2, body.section-payroll h2, body.section-training h2, body.section-neighbor-islands h2 {
 	color: #ED1C2E;
+}
+
+body.section-insights #footer, body.section-about-us #footer {
+	color: #FFFFFF;
+}
+
+body.section-insights #footer .menu a, body.section-insights #footer .menu a:link, body.section-insights #footer .menu a:visited, body.section-about-us #footer .menu a, body.section-about-us #footer .menu a:link, body.section-about-us #footer .menu a:visited {
+	color: #000000;
+}
+
+body.section-insights #block-menu-menu-quaternary-links ul li a, body.section-insights #block-menu-menu-quaternary-links ul li a:link, body.section-insights #block-menu-menu-quaternary-links ul li a:visited, body.section-about-us #block-menu-menu-quaternary-links ul li a, body.section-about-us #block-menu-menu-quaternary-links ul li a:link, body.section-about-us #block-menu-menu-quaternary-links ul li a:visited {
+	border-right: 1px solid #000000;
 }
 
 
