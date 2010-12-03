@@ -45,7 +45,6 @@ body {
 #page {
 	position: relative;
 	overflow: hidden;
-	/* z-index: -3; */
 }
 
 #splash {
