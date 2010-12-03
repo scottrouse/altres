@@ -309,7 +309,7 @@ body.not-front #staffing {
 
 #primary-links {
 	position: relative;
-	width: 985px;
+	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 103px;
@@ -326,7 +326,7 @@ body.not-front #primary-links {
 	top: 0;
 	z-index: 7;
 	display: block;
-	width: 214px;
+	width: 213px;
 	height: 103px;
 	padding-left: 32px;
 	text-transform: uppercase;
