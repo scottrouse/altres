@@ -818,12 +818,12 @@ body.front #main {
 
 #main h2#page-identifier {
 	color: #000000;
-	font-size: 1.4em;
+	font-size: 13px;
 	margin-left: -225px;
 	margin-bottom: 16px;
 	float: left;
 	padding-bottom: 0px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 div.title {
