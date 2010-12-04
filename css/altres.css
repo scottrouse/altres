@@ -510,7 +510,9 @@ body.front #block-menu-menu-quaternary-links ul li a, body.front #block-menu-men
  *
  */
 
-
+body.section-technical #page, body.section-medical #page, body.section-successes #page, body.section-insights #page, body.section-about-us #page {
+	top: 1px;
+}
 
 
 
