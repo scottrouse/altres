@@ -1017,12 +1017,13 @@ blockquote.align-left {
 }
 
 #main .block-menu_block .menu a {
-	color: #000000;
+	color: #4D4D4F;
 }
 
 #main .block-menu_block .menu a.active {
 	font-weight: 700;
 	font-size: 110%;
+	color: #000000;
 }
 
 #main .block-menu_block .menu li.leaf {
