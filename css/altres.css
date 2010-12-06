@@ -79,10 +79,6 @@ ul, ol {
 	padding-left: 1em;
 }
 
-.clear {
-	clear: both;
-}
-
 
 
 
@@ -386,14 +382,12 @@ ul li p {
 
 .content h3 {
 	margin-bottom: 14px;
-	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.3em;
 }
 
 .content h4 {
 	margin-bottom: -8px;
-	font-weight: 500;
 	margin-top: 40px;
 }
 
