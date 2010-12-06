@@ -1169,7 +1169,7 @@ blockquote.align-left {
 	font-weight: bold;
 }
 
-#content .right-col ul, #content .left-col ul {
+#content .right-col ul.zebra, #content .left-col ul.zebra {
 	padding-left: 0;
 }
 
