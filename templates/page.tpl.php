@@ -172,6 +172,7 @@
 
         <div id="content-area">
           <?php print $content; ?>
+          <div class="clear">&nbsp;</div>
         </div>
 
         <?php print $content_bottom; ?>
