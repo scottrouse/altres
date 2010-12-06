@@ -1146,6 +1146,18 @@ blockquote.align-left {
 	font-weight: bold;
 }
 
+#content .right-col ul, #content .left-col ul {
+	padding-left: 0;
+}
+
+#content .right-col ul.zebra li, #content .left-col ul.zebra li {
+	padding-left: 0;
+}
+
+
+
+
+
 
 /* HEADERS */
 
