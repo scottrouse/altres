@@ -79,6 +79,9 @@ ul, ol {
 	padding-left: 1em;
 }
 
+.clear {
+	clear: both;
+}
 
 
 
@@ -1068,6 +1071,10 @@ blockquote.align-left {
 
 #main #block-menu_block-3 {
 	margin-top: 73px;
+}
+
+.left-col h4, .right-col h4 {
+	font-weight: bold;
 }
 
 
