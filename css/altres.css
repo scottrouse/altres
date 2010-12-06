@@ -141,6 +141,20 @@ h4 {
 .region-sidebar-second {
 }
 
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+
+
 
 
 /*
@@ -389,6 +403,11 @@ ul li p {
 .content h4 {
 	margin-bottom: -8px;
 	margin-top: 40px;
+	font-size: 14px;
+}
+
+.content h4 {
+	font-size: 13px;
 }
 
 
