@@ -62,7 +62,7 @@ body.not-front #splash {
 }
 
 page.not-front #main p, page.not-front #main ul li, page.not-front #main table td {
-	line-height: 1.5em;
+	line-height: 18px;
 	font-size: 13px;
 }
 
@@ -76,7 +76,7 @@ a {
 }
 
 ul, ol {
-	padding-left: 1em;
+	padding-left: 13px;
 }
 
 
@@ -1131,11 +1131,12 @@ blockquote.align-left {
 
 #main #content .left-col ul li, #main #content .left-col p, #main #content .right-col ul li, #main #content .right-col p {
 	font-size: 11px;
-	line-height: 1.6em;
+	line-height: 17px;
 }
 
 #main #content .left-col ul.zebra li, #main #content .right-col ul.zebra li {
 	font-size: 13px;
+	line-height: 20px;
 }
 
 #main #content .left-col h3, #main #content .right-col h3 {
