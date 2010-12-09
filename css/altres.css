@@ -131,7 +131,7 @@ h4 {
 
 #content p, #content ul, #content table {
 	font-size: 12px;
-	line-height: 1.6em;
+	line-height: 19px;
 	margin: 12px 0;
 }
 
@@ -259,7 +259,7 @@ h4 {
 
 
 #tertiary-links ul.links li {
-	padding: 0 0.9em;
+	padding: 0 10px;
 }
 
 
@@ -398,18 +398,15 @@ ul li p {
 .content h3 {
 	margin-bottom: 14px;
 	font-size: 16px;
-	line-height: 1.3em;
+	line-height: 20px;
 }
 
 .content h4 {
 	margin-bottom: -8px;
 	margin-top: 40px;
-	font-size: 14px;
-}
-
-.content h4 {
 	font-size: 13px;
 }
+
 
 
 /*
@@ -453,7 +450,7 @@ ul li p {
 
 #block-menu-menu-quaternary-links ul li a, #block-menu-menu-quaternary-links ul li a:link, #block-menu-menu-quaternary-links ul li a:visited {
 	border-right: 1px solid #000000;
-	padding-right: 0.3em;
+	padding-right: 4px;
 }
 
 
@@ -811,7 +808,7 @@ body.front #main {
 	font-weight: 900;
 	font-size: 55px;
 	margin: 0;
-	line-height: 1.1em;
+	line-height: 64px;
 }
 
 #main h2#page-identifier {
@@ -1016,7 +1013,7 @@ blockquote.align-left {
 
 #main .block-menu_block ul li {
 	margin: 0;
-	line-height: 1.5em;
+	line-height: 22px;
 }
 
 #main .block-menu_block .menu a {
