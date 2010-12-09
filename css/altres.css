@@ -345,7 +345,7 @@ body.not-front #primary-links {
 	padding-left: 32px;
 	text-transform: uppercase;
 	padding-top: 8px;
-	font-weight: 500;
+	font-weight: bold;
 }
 
 body.not-front #primary-links a, body.not-front #primary-links a:link, body.not-front #primary-links a:visited {
