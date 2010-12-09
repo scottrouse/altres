@@ -819,12 +819,13 @@ body.front #main {
 	float: left;
 	padding-bottom: 0px;
 	font-weight: bold;
+	margin-top: 5px;
 }
 
 div.title {
 	float: left;
 	margin-left: -225px;
-	margin-top: 20px;
+	margin-top: 25px;
 	margin-bottom: 16px;
 	width: 50px;
 }
@@ -1002,7 +1003,7 @@ blockquote.align-left {
 /* NAVIGATION */
 
 #main .block-menu_block {
-	margin-top: 58px;
+	margin-top: 63px;
 	font-weight: 500;
 	font-family: Arial, Helvetica, sans-serif;
 }
