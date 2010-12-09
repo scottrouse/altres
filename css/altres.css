@@ -456,9 +456,7 @@ ul li p {
 	padding-right: 0.3em;
 }
 
-#block-menu-menu-quaternary-links ul li.last a, #block-menu-menu-quaternary-links ul li.last a:link, #block-menu-menu-quaternary-links ul li.last a:visited {
-	border: none;
-}
+
 
 #block-block-4 {
 	clear: left;
@@ -597,13 +595,16 @@ body.section-industrial #footer {
 }
 
 body.section-industrial #footer .menu a, body.section-industrial #footer .menu a:link, body.section-industrial #footer .menu a:visited {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 body.section-industrial #block-menu-menu-quaternary-links ul li a, body.section-industrial #block-menu-menu-quaternary-links ul li a:link, body.section-industrial #block-menu-menu-quaternary-links ul li a:visited {
-	border-right: 1px solid #000000;
+	border-right: 1px solid #FFFFFF;
 }
 
+body.section-industrial #block-menu-menu-quaternary-links ul li.last a, body.section-industrial #block-menu-menu-quaternary-links ul li.last a:link, body.section-industrial #block-menu-menu-quaternary-links ul li.last a:visited {
+	border-right: none;
+}
 
 
 /* OFFICE */
@@ -699,17 +700,6 @@ body.section-technical #splash {
 	background-image: url(../images/splash/background/interior-technical.jpg);
 }
 
-body.section-technical #footer {
-	color: #FFFFFF;
-}
-
-body.section-technical #footer .menu a, body.section-technical #footer .menu a:link, body.section-technical #footer .menu a:visited {
-	color: #000000;
-}
-
-body.section-technical #block-menu-menu-quaternary-links ul li a, body.section-technical #block-menu-menu-quaternary-links ul li a:link, body.section-technical #block-menu-menu-quaternary-links ul li a:visited {
-	border-right: 1px solid #000000;
-}
 
 
 
@@ -792,17 +782,7 @@ body.section-about-us h2, body.section-payroll h2, body.section-training h2, bod
 	color: #ED1C2E;
 }
 
-body.section-insights #footer, body.section-about-us #footer {
-	color: #FFFFFF;
-}
 
-body.section-insights #footer .menu a, body.section-insights #footer .menu a:link, body.section-insights #footer .menu a:visited, body.section-about-us #footer .menu a, body.section-about-us #footer .menu a:link, body.section-about-us #footer .menu a:visited {
-	color: #000000;
-}
-
-body.section-insights #block-menu-menu-quaternary-links ul li a, body.section-insights #block-menu-menu-quaternary-links ul li a:link, body.section-insights #block-menu-menu-quaternary-links ul li a:visited, body.section-about-us #block-menu-menu-quaternary-links ul li a, body.section-about-us #block-menu-menu-quaternary-links ul li a:link, body.section-about-us #block-menu-menu-quaternary-links ul li a:visited {
-	border-right: 1px solid #000000;
-}
 
 
 /*
@@ -931,6 +911,12 @@ img.align-left {
 #page ul li {
 	margin-top: 5px;
 }
+
+#block-menu-menu-quaternary-links ul li.last a, #block-menu-menu-quaternary-links ul li.last a:link, #block-menu-menu-quaternary-links ul li.last a:visited {
+	border: none;
+}
+
+
 
 
 /* ZEBRA-STRIPING AND TWO-COLUMN LISTS/TABLES */
