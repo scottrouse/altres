@@ -515,6 +515,10 @@ body.front #block-menu-menu-quaternary-links ul li a, body.front #block-menu-men
 	border-right: 1px solid #FFFFFF;
 }
 
+body.front #block-menu-menu-quaternary-links ul li.last a, body.front #block-menu-menu-quaternary-links ul li.last a:link, body.front #block-menu-menu-quaternary-links ul li.last a:visited {
+	border-right: none;
+}
+
 
 
 
